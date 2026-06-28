@@ -1,0 +1,24 @@
+{
+  "name": "asset-management-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently --kill-others \"vite build --watch\" \"vite preview --port 5003 --strictPort --host 0.0.0.0\"",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@module-federation/vite": "^1.16.11",
+    "axios": "^1.7.9",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "7.17.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^8.2.2",
+    "postcss-prefix-selector": "^2.1.1",
+    "vite": "^6.0.7"
+  }
+}
