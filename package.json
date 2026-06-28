@@ -1,0 +1,16 @@
+{
+  "name": "mf_2-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "federations/*",
+    "host-app",
+    "shared"
+  ],
+  "devDependencies": {
+    "nx": "latest"
+  },
+  "scripts": {
+    "build": "nx run-many --target=build --all"
+  }
+}

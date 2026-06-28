@@ -1,0 +1,10 @@
+{
+  "name": "@myorg/shared",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "src/index.jsx",
+  "dependencies": {
+    "react": "^19.2.6"
+  }
+}

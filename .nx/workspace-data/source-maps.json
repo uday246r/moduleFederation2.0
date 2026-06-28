@@ -1,0 +1,1054 @@
+{
+  "federations/asset_mf": {
+    "root": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn.0": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs.0": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs.1": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "name": [
+      "federations/asset_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "federations/asset_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "federations/asset_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "federations/asset_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "federations/asset_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "federations/asset_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "federations/asset_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "federations/asset_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "federations/asset_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "federations/asset_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "federations/asset_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "federations/asset_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev": [
+      "federations/asset_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.executor": [
+      "federations/asset_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata": [
+      "federations/asset_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.options.script": [
+      "federations/asset_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.options": [
+      "federations/asset_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata.scriptContent": [
+      "federations/asset_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata.runCommand": [
+      "federations/asset_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.executor": [
+      "federations/asset_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata": [
+      "federations/asset_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.script": [
+      "federations/asset_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
+      "federations/asset_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.scriptContent": [
+      "federations/asset_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.runCommand": [
+      "federations/asset_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview": [
+      "federations/asset_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.executor": [
+      "federations/asset_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.metadata": [
+      "federations/asset_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.options.script": [
+      "federations/asset_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.options": [
+      "federations/asset_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.metadata.scriptContent": [
+      "federations/asset_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.metadata.runCommand": [
+      "federations/asset_mf/package.json",
+      "nx/core/package-json"
+    ]
+  },
+  "federations/employee_mf": {
+    "root": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn.0": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs.0": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs.1": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs.0": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "name": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.executor": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.options.script": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.options": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata.scriptContent": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata.runCommand": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.executor": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.script": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.scriptContent": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.runCommand": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.executor": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options.script": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.scriptContent": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.runCommand": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.executor": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.metadata": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.options.script": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.options": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.metadata.scriptContent": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.metadata.runCommand": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ]
+  },
+  "federations/helpdesk_mf": {
+    "root": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn.0": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs.0": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs.1": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs.0": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "name": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.executor": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.options.script": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.options": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata.scriptContent": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata.runCommand": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.executor": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.script": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.scriptContent": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.runCommand": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.executor": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options.script": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.scriptContent": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.runCommand": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.executor": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.metadata": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.options.script": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.options": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.metadata.scriptContent": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.metadata.runCommand": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ]
+  },
+  "federations/inventory_mf": {
+    "root": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn.0": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs.0": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs.1": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs.0": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "name": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.executor": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.options.script": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.options": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata.scriptContent": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata.runCommand": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.executor": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.script": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.scriptContent": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.runCommand": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.executor": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options.script": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.scriptContent": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.runCommand": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.executor": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.metadata": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.options.script": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.options": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.metadata.scriptContent": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.metadata.runCommand": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ]
+  },
+  "host-app": {
+    "root": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn.0": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs.0": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs.1": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs.0": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "name": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.executor": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.options.script": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.options": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata.scriptContent": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata.runCommand": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.executor": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.script": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.scriptContent": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.runCommand": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.executor": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options.script": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.scriptContent": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.runCommand": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.executor": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.metadata": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.options.script": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.options": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.metadata.scriptContent": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.metadata.runCommand": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ]
+  },
+  "shared": {
+    "root": [
+      "shared/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "shared/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "shared/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "shared/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "shared/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "shared/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "shared/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "shared/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "shared/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "shared/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "shared/package.json",
+      "nx/core/package-json"
+    ]
+  }
+}

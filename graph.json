@@ -1,0 +1,476 @@
+{
+  "graph": {
+    "nodes": {
+      "inventory-mf": {
+        "name": "inventory-mf",
+        "type": "app",
+        "data": {
+          "root": "federations/inventory_mf",
+          "targets": {
+            "build": {
+              "dependsOn": [
+                "^build"
+              ],
+              "inputs": [
+                "production",
+                "^production"
+              ],
+              "cache": true,
+              "executor": "nx:run-script",
+              "metadata": {
+                "scriptContent": "vite build",
+                "runCommand": "npm run build"
+              },
+              "options": {
+                "script": "build"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "lint": {
+              "inputs": [
+                "default"
+              ],
+              "cache": true,
+              "executor": "nx:run-script",
+              "metadata": {
+                "scriptContent": "eslint .",
+                "runCommand": "npm run lint"
+              },
+              "options": {
+                "script": "lint"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "dev": {
+              "executor": "nx:run-script",
+              "metadata": {
+                "scriptContent": "concurrently --kill-others \"vite build --watch\" \"vite preview --port 5002 --strictPort\"",
+                "runCommand": "npm run dev"
+              },
+              "options": {
+                "script": "dev"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "preview": {
+              "executor": "nx:run-script",
+              "metadata": {
+                "scriptContent": "vite preview --port 5002 --strictPort",
+                "runCommand": "npm run preview"
+              },
+              "options": {
+                "script": "preview"
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "inventory-mf",
+          "tags": [
+            "npm:private"
+          ],
+          "metadata": {
+            "targetGroups": {
+              "NPM Scripts": [
+                "dev",
+                "build",
+                "lint",
+                "preview"
+              ]
+            },
+            "js": {
+              "packageName": "inventory-mf",
+              "packageVersion": "0.0.0",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "implicitDependencies": []
+        }
+      },
+      "employee-mf": {
+        "name": "employee-mf",
+        "type": "app",
+        "data": {
+          "root": "federations/employee_mf",
+          "targets": {
+            "build": {
+              "dependsOn": [
+                "^build"
+              ],
+              "inputs": [
+                "production",
+                "^production"
+              ],
+              "cache": true,
+              "executor": "nx:run-script",
+              "metadata": {
+                "scriptContent": "vite build",
+                "runCommand": "npm run build"
+              },
+              "options": {
+                "script": "build"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "lint": {
+              "inputs": [
+                "default"
+              ],
+              "cache": true,
+              "executor": "nx:run-script",
+              "metadata": {
+                "scriptContent": "eslint .",
+                "runCommand": "npm run lint"
+              },
+              "options": {
+                "script": "lint"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "dev": {
+              "executor": "nx:run-script",
+              "metadata": {
+                "scriptContent": "concurrently --kill-others \"vite build --watch\" \"vite preview --port 5001 --strictPort\"",
+                "runCommand": "npm run dev"
+              },
+              "options": {
+                "script": "dev"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "preview": {
+              "executor": "nx:run-script",
+              "metadata": {
+                "scriptContent": "vite preview --port 5001 --strictPort",
+                "runCommand": "npm run preview"
+              },
+              "options": {
+                "script": "preview"
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "employee-mf",
+          "tags": [
+            "npm:private"
+          ],
+          "metadata": {
+            "targetGroups": {
+              "NPM Scripts": [
+                "dev",
+                "build",
+                "lint",
+                "preview"
+              ]
+            },
+            "js": {
+              "packageName": "employee-mf",
+              "packageVersion": "0.0.0",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "implicitDependencies": []
+        }
+      },
+      "helpdesk-mf": {
+        "name": "helpdesk-mf",
+        "type": "app",
+        "data": {
+          "root": "federations/helpdesk_mf",
+          "targets": {
+            "build": {
+              "dependsOn": [
+                "^build"
+              ],
+              "inputs": [
+                "production",
+                "^production"
+              ],
+              "cache": true,
+              "executor": "nx:run-script",
+              "metadata": {
+                "scriptContent": "vite build",
+                "runCommand": "npm run build"
+              },
+              "options": {
+                "script": "build"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "lint": {
+              "inputs": [
+                "default"
+              ],
+              "cache": true,
+              "executor": "nx:run-script",
+              "metadata": {
+                "scriptContent": "eslint .",
+                "runCommand": "npm run lint"
+              },
+              "options": {
+                "script": "lint"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "dev": {
+              "executor": "nx:run-script",
+              "metadata": {
+                "scriptContent": "concurrently --kill-others \"vite build --watch\" \"vite preview --port 5004 --strictPort\"",
+                "runCommand": "npm run dev"
+              },
+              "options": {
+                "script": "dev"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "preview": {
+              "executor": "nx:run-script",
+              "metadata": {
+                "scriptContent": "vite preview --port 5004 --strictPort",
+                "runCommand": "npm run preview"
+              },
+              "options": {
+                "script": "preview"
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "helpdesk-mf",
+          "tags": [
+            "npm:private"
+          ],
+          "metadata": {
+            "targetGroups": {
+              "NPM Scripts": [
+                "dev",
+                "build",
+                "lint",
+                "preview"
+              ]
+            },
+            "js": {
+              "packageName": "helpdesk-mf",
+              "packageVersion": "0.0.0",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "implicitDependencies": []
+        }
+      },
+      "asset-management-frontend": {
+        "name": "asset-management-frontend",
+        "type": "app",
+        "data": {
+          "root": "federations/asset_mf",
+          "targets": {
+            "build": {
+              "dependsOn": [
+                "^build"
+              ],
+              "inputs": [
+                "production",
+                "^production"
+              ],
+              "cache": true,
+              "executor": "nx:run-script",
+              "metadata": {
+                "scriptContent": "vite build",
+                "runCommand": "npm run build"
+              },
+              "options": {
+                "script": "build"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "dev": {
+              "executor": "nx:run-script",
+              "metadata": {
+                "scriptContent": "concurrently --kill-others \"vite build --watch\" \"vite preview --port 5003 --strictPort --host 0.0.0.0\"",
+                "runCommand": "npm run dev"
+              },
+              "options": {
+                "script": "dev"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "preview": {
+              "executor": "nx:run-script",
+              "metadata": {
+                "scriptContent": "vite preview --host 0.0.0.0",
+                "runCommand": "npm run preview"
+              },
+              "options": {
+                "script": "preview"
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "asset-management-frontend",
+          "tags": [
+            "npm:private"
+          ],
+          "metadata": {
+            "targetGroups": {
+              "NPM Scripts": [
+                "dev",
+                "build",
+                "preview"
+              ]
+            },
+            "js": {
+              "packageName": "asset-management-frontend",
+              "packageVersion": "1.0.0",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "implicitDependencies": []
+        }
+      },
+      "host-app": {
+        "name": "host-app",
+        "type": "app",
+        "data": {
+          "root": "host-app",
+          "targets": {
+            "build": {
+              "dependsOn": [
+                "^build"
+              ],
+              "inputs": [
+                "production",
+                "^production"
+              ],
+              "cache": true,
+              "executor": "nx:run-script",
+              "metadata": {
+                "scriptContent": "vite build",
+                "runCommand": "npm run build"
+              },
+              "options": {
+                "script": "build"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "lint": {
+              "inputs": [
+                "default"
+              ],
+              "cache": true,
+              "executor": "nx:run-script",
+              "metadata": {
+                "scriptContent": "eslint .",
+                "runCommand": "npm run lint"
+              },
+              "options": {
+                "script": "lint"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "dev": {
+              "executor": "nx:run-script",
+              "metadata": {
+                "scriptContent": "vite",
+                "runCommand": "npm run dev"
+              },
+              "options": {
+                "script": "dev"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "preview": {
+              "executor": "nx:run-script",
+              "metadata": {
+                "scriptContent": "vite preview",
+                "runCommand": "npm run preview"
+              },
+              "options": {
+                "script": "preview"
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "host-app",
+          "tags": [
+            "npm:private"
+          ],
+          "metadata": {
+            "targetGroups": {
+              "NPM Scripts": [
+                "dev",
+                "build",
+                "lint",
+                "preview"
+              ]
+            },
+            "js": {
+              "packageName": "host-app",
+              "packageVersion": "0.0.0",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "implicitDependencies": []
+        }
+      },
+      "@myorg/shared": {
+        "name": "@myorg/shared",
+        "type": "lib",
+        "data": {
+          "root": "shared",
+          "name": "@myorg/shared",
+          "tags": [
+            "npm:private"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageName": "@myorg/shared",
+              "packageVersion": "1.0.0",
+              "packageMain": "src/index.jsx",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {},
+          "implicitDependencies": []
+        }
+      }
+    },
+    "dependencies": {
+      "inventory-mf": [],
+      "employee-mf": [
+        {
+          "source": "employee-mf",
+          "target": "@myorg/shared",
+          "type": "static"
+        }
+      ],
+      "helpdesk-mf": [
+        {
+          "source": "helpdesk-mf",
+          "target": "@myorg/shared",
+          "type": "static"
+        }
+      ],
+      "asset-management-frontend": [],
+      "host-app": [],
+      "@myorg/shared": []
+    }
+  }
+}

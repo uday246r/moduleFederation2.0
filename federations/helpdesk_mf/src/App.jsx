@@ -8,6 +8,8 @@ import { TicketDetails } from './pages/TicketDetails.jsx';
 import { UpdateTicket } from './pages/UpdateTicket.jsx';
 import './index.css';
 
+import { NxButton } from '@myorg/shared';
+
 export const App = () => {
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', 'light');
@@ -16,6 +18,7 @@ export const App = () => {
 
   return (
     <div id="helpdesk-mf-scope" className="helpdesk-app-container">
+      <NxButton label="Helpdesk Nx Button" />
       <Shell>
         <Routes>
           <Route index element={<Dashboard />} />

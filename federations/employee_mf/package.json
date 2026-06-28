@@ -1,5 +1,5 @@
 {
-  "name": "frontend",
+  "name": "employee-mf",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@module-federation/vite": "^1.16.11",
+    "@myorg/shared": "*",
     "axios": "^1.17.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
