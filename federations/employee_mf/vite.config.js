@@ -11,6 +11,10 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 export default defineConfig({
 
   base: "http://localhost:5001/",
+  optimizeDeps: {
+    exclude: ['@myorg/shared']
+  },
+
 
   plugins: [
 
@@ -58,10 +62,13 @@ export default defineConfig({
   },
 
   server: {
-  host: "0.0.0.0",
-  port: 5001,
-  cors: true,
-},
+    host: "0.0.0.0",
+    port: 5001,
+    cors: true,
+    watch: {
+      ignored: ['!**/node_modules/@myorg/shared/**']
+    }
+  },
 
  preview: {
   host: "0.0.0.0",

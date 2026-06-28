@@ -1,0 +1,32 @@
+{
+  "run": {
+    "command": "nx affected -t build",
+    "startTime": "2026-06-28T15:52:18.018Z",
+    "endTime": "2026-06-28T15:52:24.293Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "employee-mf:build",
+      "target": "build",
+      "projectName": "employee-mf",
+      "hash": "9977493899304089741",
+      "startTime": "2026-06-28T15:52:18.263Z",
+      "endTime": "2026-06-28T15:52:22.945Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "helpdesk-mf:build",
+      "target": "build",
+      "projectName": "helpdesk-mf",
+      "hash": "15809246320391321556",
+      "startTime": "2026-06-28T15:52:18.264Z",
+      "endTime": "2026-06-28T15:52:24.213Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}
