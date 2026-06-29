@@ -32,8 +32,10 @@ jobs:
           dotnet-version: '10.0.x'
 
       - name: Install dependencies
-        # Using npm install instead of npm ci to workaround the Rollup cross-platform optional dependency bug
-        run: npm install
+        # Rollup cross-platform optional dependency bug workaround:
+        run: |
+          rm -f package-lock.json
+          npm install
 
       - name: Run .NET Tests
         run: dotnet test backend/EnterprisePortal.slnx --logger trx || echo "No tests found or tests failed"
@@ -76,7 +78,9 @@ jobs:
           node-version: '20'
 
       - name: Install Node Dependencies
-        run: npm install
+        run: |
+          rm -f package-lock.json
+          npm install
 
       - name: Run NPM Audit
         # Check for vulnerabilities but don't fail the build immediately while onboarding
