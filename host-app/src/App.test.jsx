@@ -11,5 +11,5 @@ test("renders App component without crashing", () => {
   // We use MemoryRouter for testing, or if AppRoutes provides its own Router, we just render App.
   render(<App />);
   // We just expect it to mount successfully.
-  expect(true).toBe(true);
+  expect(true).toBe(false);
 });
