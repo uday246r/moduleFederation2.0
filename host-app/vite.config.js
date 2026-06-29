@@ -42,6 +42,12 @@ export default defineConfig(({ mode }) => {
       target: "esnext",
     },
 
+    test: {
+      environment: 'jsdom',
+      globals: true,
+      setupFiles: './src/setupTests.js',
+    },
+
     server: {
       host: "0.0.0.0",
       port: 3000,

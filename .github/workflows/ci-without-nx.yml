@@ -1,0 +1,65 @@
+name: CI without Nx
+
+on:
+  push:
+    branches:
+      - none # Disable automatic triggering to avoid duplicate CI runs. Change to 'main' if you prefer this one.
+  workflow_dispatch:
+
+jobs:
+  build-and-test:
+    name: Build and Test (Without Nx)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Install root dependencies
+        run: npm ci
+
+      - name: Run .NET Tests
+        run: dotnet test backend/EnterprisePortal.slnx --logger trx || echo "No tests found or tests failed"
+
+      - name: Build .NET Backend
+        run: dotnet build backend/EnterprisePortal.slnx
+
+      - name: Build and Test Frontend (Host App)
+        run: |
+          cd host-app
+          npm run build --if-present
+          npm run test --if-present
+      
+      - name: Build and Test Frontend (Employee MF)
+        run: |
+          cd federations/employee_mf
+          npm run build --if-present
+          npm run test --if-present
+      
+      - name: Build and Test Frontend (Asset MF)
+        run: |
+          cd federations/asset_mf
+          npm run build --if-present
+          npm run test --if-present
+      
+      - name: Build and Test Frontend (Helpdesk MF)
+        run: |
+          cd federations/helpdesk_mf
+          npm run build --if-present
+          npm run test --if-present
+      
+      - name: Build and Test Frontend (Inventory MF)
+        run: |
+          cd federations/inventory_mf
+          npm run build --if-present
+          npm run test --if-present

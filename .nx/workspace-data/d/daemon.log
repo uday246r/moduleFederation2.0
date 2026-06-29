@@ -3324,3 +3324,135 @@ DEBUG nx::native::watch::watcher: force-flush END count=0 replies=1 elapsed=13.7
 [NX v23.0.1 Daemon Server] - 2026-06-28T16:55:35.180Z - Time taken for 'total for creating and serializing project graph' 24.563099999912083ms
 [NX v23.0.1 Daemon Server] - 2026-06-28T16:56:31.018Z - Closed a connection. Number of open connections: 1
 [NX v23.0.1 Daemon Server] - 2026-06-28T16:56:31.056Z - Closed a connection. Number of open connections: 0
+[NX v23.0.1 Daemon Client] - 2026-06-29T04:53:15.771Z - [Client] Starting new daemon server in background
+[NX v23.0.1 Daemon Client] - 2026-06-29T04:53:15.779Z - [Client] Waiting for server (max: 6000 attempts, 10ms interval)
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:17.071Z - Time taken for 'workspace context init' 5.649799999999914ms
+DEBUG nx::native::telemetry: Telemetry service initialized successfully
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:17.761Z - New daemon starting from: C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\daemon\server\server.js
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:17.761Z - New daemon __dirname: C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\daemon\server
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:17.761Z - New daemon nxVersion: 23.0.1
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:17.762Z - New daemon getInstalledNxVersion(): 23.0.1
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:17.765Z - [Server] Starting outdated check interval (20ms)
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:17.769Z - Started listening on: \\.\pipe\nx\C:\Users\udayo\AppData\Local\Temp\bab66d305a16ab187a93\d.sock
+[NX v23.0.1 Daemon Client] - 2026-06-29T04:53:17.769Z - [Client] Server available
+[NX v23.0.1 Daemon Client] - 2026-06-29T04:53:17.770Z - [Client] Daemon server started, pid=3248
+[NX v23.0.1 Daemon Client] - 2026-06-29T04:53:17.772Z - [Messenger] Setting up socket listeners
+[NX v23.0.1 Daemon Client] - 2026-06-29T04:53:17.773Z - [Messenger] listen() complete
+DEBUG nx::native::watch::watcher: watching started origin=C:\Users\udayo\OneDrive\Desktop\mf_2\podman
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:18.044Z - [WATCHER]: Subscribed to changes within: C:\Users\udayo\OneDrive\Desktop\mf_2\podman (native)
+DEBUG nx::native::watch::watcher: watching started origin=C:\Users\udayo\OneDrive\Desktop\mf_2\podman
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:18.186Z - [LATEST-NX]: Pulling latest Nx...
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:18.204Z - [AI-AGENTS]: Starting agent configuration status computation
+[isolated-plugin] spawned worker for "C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\js" (pid: 27228, socket: \\.\pipe\nx\C:\Users\udayo\AppData\Local\Temp\plugin3248-0-2406.3074.sock)
+[isolated-plugin] spawned worker for "C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\package-json" (pid: 27932, socket: \\.\pipe\nx\C:\Users\udayo\AppData\Local\Temp\plugin3248-1-2422.9384.sock)
+[isolated-plugin] spawned worker for "C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json" (pid: 27600, socket: \\.\pipe\nx\C:\Users\udayo\AppData\Local\Temp\plugin3248-2-2434.4166.sock)
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:18.248Z - Time taken for 'loadSpecifiedNxPlugins' 61.30529999999999ms
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:18.257Z - Established a connection. Number of open connections: 1
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:18.258Z - Established a connection. Number of open connections: 2
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:18.259Z - Closed a connection. Number of open connections: 1
+[NX v23.0.1 Daemon Client] - 2026-06-29T04:53:18.501Z - [Messenger] Sending message type: REQUEST_PROJECT_GRAPH
+[NX v23.0.1 Daemon Client] - 2026-06-29T04:53:18.503Z - [Messenger] Message sent
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:18.511Z - Received raw message of length 6262
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:18.512Z - Received json message of type REQUEST_PROJECT_GRAPH
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:18.514Z - [REQUEST]: Client Request for Project Graph Received
+DEBUG nx::native::watch::watcher: force-flush END count=0 replies=1 elapsed=23.3754ms
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:18.540Z - Reusing in-memory cached project graph because no files changed.
+[plugin-worker] "C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\package-json" (pid: 27932) listening on \\.\pipe\nx\C:\Users\udayo\AppData\Local\Temp\plugin3248-1-2422.9384.sock
+[isolated-plugin] connected to worker for "C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\package-json" (pid: 27932)
+[isolated-plugin] connected to worker for "C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json" (pid: 27600)
+[plugin-worker] "C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json" (pid: 27600) listening on \\.\pipe\nx\C:\Users\udayo\AppData\Local\Temp\plugin3248-2-2434.4166.sock
+[1m[33mTime taken for 'plugin worker 27600 code loading' 1107.1965ms[39m[22m
+[plugin-worker] "C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json" (pid: 27600) connected
+[1m[33mTime taken for 'plugin worker 27932 code loading' 1111.9850999999999ms[39m[22m
+[plugin-worker] "C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\package-json" (pid: 27932) connected
+[plugin-worker] "C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\js" (pid: 27228) listening on \\.\pipe\nx\C:\Users\udayo\AppData\Local\Temp\plugin3248-0-2406.3074.sock
+[1m[33mTime taken for 'plugin worker 27228 code loading' 1143.0258999999999ms[39m[22m
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:19.482Z - Time taken for 'start-plugin-worker:C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\package-json' 1251.8122000000003ms
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:19.483Z - Time taken for 'start-plugin-worker:C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json' 1244.8121ms
+[isolated-plugin] connected to worker for "C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\js" (pid: 27228)
+[plugin-worker] "C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\js" (pid: 27228) connected
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:19.491Z - Time taken for 'start-plugin-worker:C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\js' 1284.2899000000002ms
+[plugin-worker] "C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json" (pid: 27600) loaded successfully
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:20.108Z - Time taken for 'Load Nx Plugin: C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json' 1924.3875000000003ms
+[plugin-worker] "C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\package-json" (pid: 27932) loaded successfully
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:20.129Z - Time taken for 'Load Nx Plugin: C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\package-json' 1946.9234000000001ms
+[plugin-worker] "C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\js" (pid: 27228) loaded successfully
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:20.240Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:20.240Z - [REQUEST]: 
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:20.241Z - [REQUEST]: 
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:20.251Z - Streaming message to client: progress update for topic graph-construction
+[NX v23.0.1 Daemon Client] - 2026-06-29T04:53:20.252Z - [Messenger] Received message, length: 47
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:20.255Z - Time taken for 'loadDefaultNxPlugins' 2052.8473ms
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:20.255Z - Time taken for 'Load Nx Plugin: C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\js' 2052.1243000000004ms
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:20.255Z - Time taken for 'hash changed files from watcher' 4.666599999999562ms
+[1m[33mTime taken for 'nx/core/project-json:createNodes' 0.6162999999996828ms[39m[22m
+[isolated-plugin] shutting down worker for "nx/core/project-json" after createNodes
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:21.059Z - Streaming message to client: progress update for topic graph-construction
+[NX v23.0.1 Daemon Client] - 2026-06-29T04:53:21.060Z - [Messenger] Received message, length: 153
+[1m[33mTime taken for 'nx/core/package-json:createNodes' 30.605999999999767ms[39m[22m
+[isolated-plugin] shutting down worker for "nx/core/package-json" after createNodes
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:21.114Z - Streaming message to client: progress update for topic graph-construction
+[NX v23.0.1 Daemon Client] - 2026-06-29T04:53:21.114Z - [Messenger] Received message, length: 112
+[1m[33mTime taken for 'nx/js/dependencies-and-lockfile:createNodes' 14.604800000000068ms[39m[22m
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:21.200Z - Streaming message to client: progress update for topic graph-construction
+[NX v23.0.1 Daemon Client] - 2026-06-29T04:53:21.200Z - [Messenger] Received message, length: 47
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:21.264Z - Streaming message to client: progress update for topic graph-construction
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:21.267Z - Time taken for 'build-project-configs' 967.5529000000006ms
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:21.267Z - Time taken for 'createNodes:merge' 17.511999999999716ms
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:21.267Z - Time taken for 'native-file-deps' 0.020600000000740692ms
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:21.267Z - Time taken for 'get-workspace-files' 9.162699999999859ms
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:21.268Z - Time taken for 'read cache' 2.985200000000077ms
+[NX v23.0.1 Daemon Client] - 2026-06-29T04:53:21.272Z - [Messenger] Received message, length: 47
+[1m[33mTime taken for 'build typescript dependencies' 0.29340000000001965ms[39m[22m
+[isolated-plugin] shutting down worker for "nx/js/dependencies-and-lockfile" after createDependencies
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:21.289Z - Streaming message to client: progress update for topic graph-construction
+[NX v23.0.1 Daemon Client] - 2026-06-29T04:53:21.289Z - [Messenger] Received message, length: 47
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:21.298Z - [SYNC]: collect registered sync generators
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:21.316Z - Wrote project graph cache to C:\Users\udayo\OneDrive\Desktop\mf_2\podman\.nx\workspace-data\project-graph.json
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:21.317Z - Serializing response for REQUEST_PROJECT_GRAPH message in json mode
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:21.317Z - Responding to REQUEST_PROJECT_GRAPH message
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:21.317Z - [REQUEST]: Responding to the client. project-graph
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:21.318Z - Time taken for 'total for creating and serializing project graph' 2803.1757000000002ms
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:21.318Z - Time taken for 'total execution time for createProjectGraph()' 45.777500000000146ms
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:21.318Z - Time taken for 'createDependencies' 29.330800000000636ms
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:21.318Z - Time taken for 'nx/js/dependencies-and-lockfile:createDependencies' 28.731400000000576ms
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:21.318Z - Time taken for 'createMetadata' 0.03719999999975698ms
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:21.318Z - Time taken for 'serialize graph' 1.2472999999999956ms
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:21.318Z - Time taken for 'write cache' 14.984300000000076ms
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:21.324Z - Done responding to the client project-graph
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:21.324Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 2804. Response time: 7.
+[NX v23.0.1 Daemon Client] - 2026-06-29T04:53:21.324Z - [Messenger] Received message, length: 172360
+DEBUG nx::native::telemetry::service: Sent 1 events: [nx/js/dependencies-and-lockfile:createDe]
+Fetching nx...
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:24.070Z - Established a connection. Number of open connections: 2
+[NX v23.0.1 Daemon Client] - 2026-06-29T04:53:24.069Z - [Messenger] Setting up socket listeners
+[NX v23.0.1 Daemon Client] - 2026-06-29T04:53:24.071Z - [Messenger] listen() complete
+[NX v23.0.1 Daemon Client] - 2026-06-29T04:53:24.072Z - [Messenger] Sending message type: REGISTER_PROJECT_GRAPH_LISTENER
+[NX v23.0.1 Daemon Client] - 2026-06-29T04:53:24.074Z - [Messenger] Message sent
+[NX v23.0.1 Daemon Client] - 2026-06-29T04:53:24.076Z - [Messenger] Sending message type: REQUEST_PROJECT_GRAPH
+[NX v23.0.1 Daemon Client] - 2026-06-29T04:53:24.078Z - [Messenger] Message sent
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:24.082Z - Received raw message of length 32
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:24.082Z - Received json message of type REQUEST_PROJECT_GRAPH
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:24.082Z - [REQUEST]: Client Request for Project Graph Received
+DEBUG nx::native::watch::watcher: force-flush END count=0 replies=1 elapsed=19.8623ms
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:24.103Z - Reusing in-memory cached project graph because no files changed.
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:24.103Z - Serializing response for REQUEST_PROJECT_GRAPH message in json mode
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:24.104Z - Responding to REQUEST_PROJECT_GRAPH message
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:24.104Z - [REQUEST]: Responding to the client. project-graph
+[NX v23.0.1 Daemon Client] - 2026-06-29T04:53:24.105Z - [Messenger] Received message, length: 172360
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:24.110Z - Received raw message of length 42
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:24.110Z - Received json message of type REGISTER_PROJECT_GRAPH_LISTENER
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:24.110Z - Done responding to the client project-graph
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:24.110Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 21. Response time: 7.
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:24.111Z - Time taken for 'total for creating and serializing project graph' 21.45600000000013ms
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:46.110Z - [LATEST-NX]: Successfully pulled latest Nx to C:\Users\udayo\AppData\Local\Temp\tmp-3248-2UAiyPqOwIG9
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:46.121Z - [NX-CONSOLE]: Using local implementation (NX_USE_LOCAL=true or inner call)
+DEBUG nx::native::ide::preferences: Loaded console preferences: NxConsolePreferences { auto_install_console: Some(true), path: "C:\\Users\\udayo\\.nx\\ide.json" }
+DEBUG nx::native::ide::install: Detected editor: VSCode
+DEBUG nx::native::ide::install: Checking if Nx Console extension is installed with: code.cmd --list-extensions
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:46.134Z - [AI-AGENTS]: Failed to compute agent configuration status from latest Nx. Error: Only URLs with a scheme in: file, data, and node are supported by the default ESM loader. On Windows, absolute paths must be valid file:// URLs. Received protocol 'c:'
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:46.135Z - [AI-AGENTS]: Agent configuration status computation completed: 0 fully configured, 0 outdated, 0 partially configured, 0 non-configured
+DEBUG nx::native::ide::install: Nx Console extension is installed
+[NX v23.0.1 Daemon Server] - 2026-06-29T04:53:47.361Z - [NX-CONSOLE]: Console status check completed, shouldPrompt: false
+[NX v23.0.1 Daemon Server] - 2026-06-29T07:53:24.128Z - There are open file watchers or project graph listeners. Resetting inactivity timer.
+[NX v23.0.1 Daemon Server] - 2026-06-29T10:53:24.191Z - There are open file watchers or project graph listeners. Resetting inactivity timer.
