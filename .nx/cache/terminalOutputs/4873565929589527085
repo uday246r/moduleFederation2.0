@@ -1,0 +1,27 @@
+
+> host-app@0.0.0 build
+> vite build
+
+[36mvite v8.1.0 [32mbuilding client environment for production...[36m[39m
+[2Ktransforming...[32m✓[0m 160 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[0m[2massets/[0m[32mmf-entry-bootstrap-0-099c5add.js                                                                      [0m[1;2m  1.24 kB[0m
+[2mdist/[0m[32mindex.html                                                                                                   [0m[1;2m  1.71 kB[0m[2m │ gzip:  0.60 kB[0m
+[2mdist/[0m[2massets/[0m[35mindex-Cb-kdsKI.css                                                                                    [0m[1;2m 12.26 kB[0m[2m │ gzip:  2.88 kB[0m
+[2mdist/[0m[2massets/[0m[36mvirtual_mf-exposes___mfe_internal__host__remoteEntry-_hash_-DnnXQRkG.js                               [0m[1;2m  0.04 kB[0m[2m │ gzip:  0.06 kB[0m
+[2mdist/[0m[2massets/[0m[36mvirtualExposes-DI4roZ-N.js                                                                            [0m[1;2m  0.11 kB[0m[2m │ gzip:  0.12 kB[0m
+[2mdist/[0m[2massets/[0m[36mremoteEntry-D-yQMqN-.js                                                                               [0m[1;2m  0.13 kB[0m[2m │ gzip:  0.13 kB[0m
+[2mdist/[0m[2massets/[0m[36mrolldown-runtime-CNC7AqOf.js                                                                          [0m[1;2m  0.87 kB[0m[2m │ gzip:  0.50 kB[0m
+[2mdist/[0m[2massets/[0m[36mvite-preload-helper-CZgWQFsJ.js                                                                       [0m[1;2m  1.25 kB[0m[2m │ gzip:  0.70 kB[0m
+[2mdist/[0m[2massets/[0m[36m_virtual_mf___mfe_internal__host__loadShare__react_mf_1_jsx_mf_2_runtime__loadShare__.js-Bd8AI145.js  [0m[1;2m  1.36 kB[0m[2m │ gzip:  0.71 kB[0m
+[2mdist/[0m[2massets/[0m[36mhostInit-CkOdRMgV.js                                                                                  [0m[1;2m  1.55 kB[0m[2m │ gzip:  0.75 kB[0m
+[2mdist/[0m[2massets/[0m[36m_virtual_mf-localSharedImportMap___mfe_internal__host-Db9UZU7U.js                                     [0m[1;2m  2.70 kB[0m[2m │ gzip:  0.66 kB[0m
+[2mdist/[0m[2massets/[0m[36m_virtual_mf___mfe_internal__host__loadShare__react_mf_2_dom__loadShare__.js-BEFswoTy.js               [0m[1;2m  5.78 kB[0m[2m │ gzip:  2.10 kB[0m
+[2mdist/[0m[2massets/[0m[36m_virtual_mf___mfe_internal__host__loadShare__react__loadShare__.js-uuvaA6K6.js                        [0m[1;2m 11.91 kB[0m[2m │ gzip:  4.26 kB[0m
+[2mdist/[0m[2massets/[0m[36mindex-o48efIOq.js                                                                                     [0m[1;2m 59.58 kB[0m[2m │ gzip: 21.67 kB[0m
+[2mdist/[0m[2massets/[0m[36mvirtual_mf-REMOTE_ENTRY_ID___mfe_internal__host__remoteEntry-_hash_-B11h5iQb.js                       [0m[1;2m 65.53 kB[0m[2m │ gzip: 19.56 kB[0m
+[2mdist/[0m[2massets/[0m[36m_virtual_mf___mfe_internal__host__loadShare__react_mf_2_dom_mf_1_client__loadShare__.js-CVziWWfN.js   [0m[1;2m180.06 kB[0m[2m │ gzip: 56.91 kB[0m
+[2mdist/[0m[2massets/[0m[36m_virtual_mf___mfe_internal__host__loadShare__react_mf_2_router_mf_2_dom__loadShare__.js-4v6V-KHL.js   [0m[1;2m205.39 kB[0m[2m │ gzip: 64.83 kB[0m
+
+[32m✓ built in 1.07s[39m

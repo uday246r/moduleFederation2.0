@@ -884,6 +884,10 @@
       "host-app/package.json",
       "nx/core/package-json"
     ],
+    "metadata.targetGroups.NPM Scripts.4": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
     "metadata.js": [
       "host-app/package.json",
       "nx/core/package-json"
@@ -1001,6 +1005,34 @@
       "nx/core/package-json"
     ],
     "targets.preview.metadata.runCommand": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.executor": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options.script": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.scriptContent": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.runCommand": [
       "host-app/package.json",
       "nx/core/package-json"
     ]

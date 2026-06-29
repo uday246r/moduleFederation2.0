@@ -1,18 +1,51 @@
 {
   "run": {
-    "command": "nx affected -t build",
-    "startTime": "2026-06-28T15:52:18.018Z",
-    "endTime": "2026-06-28T15:52:24.293Z",
+    "command": "nx run-many -t build --all",
+    "startTime": "2026-06-29T15:45:30.072Z",
+    "endTime": "2026-06-29T15:45:43.307Z",
     "inner": false
   },
   "tasks": [
     {
+      "taskId": "host-app:build",
+      "target": "build",
+      "projectName": "host-app",
+      "hash": "4873565929589527085",
+      "startTime": "2026-06-29T15:45:30.097Z",
+      "endTime": "2026-06-29T15:45:36.302Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "inventory-mf:build",
+      "target": "build",
+      "projectName": "inventory-mf",
+      "hash": "588148064834151895",
+      "startTime": "2026-06-29T15:45:30.097Z",
+      "endTime": "2026-06-29T15:45:36.410Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "asset-mf:build",
+      "target": "build",
+      "projectName": "asset-mf",
+      "hash": "9095396344235233138",
+      "startTime": "2026-06-29T15:45:30.097Z",
+      "endTime": "2026-06-29T15:45:39.480Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
       "taskId": "employee-mf:build",
       "target": "build",
       "projectName": "employee-mf",
-      "hash": "9977493899304089741",
-      "startTime": "2026-06-28T15:52:18.263Z",
-      "endTime": "2026-06-28T15:52:22.945Z",
+      "hash": "17793536901224666884",
+      "startTime": "2026-06-29T15:45:36.478Z",
+      "endTime": "2026-06-29T15:45:42.667Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 0
@@ -21,9 +54,9 @@
       "taskId": "helpdesk-mf:build",
       "target": "build",
       "projectName": "helpdesk-mf",
-      "hash": "15809246320391321556",
-      "startTime": "2026-06-28T15:52:18.264Z",
-      "endTime": "2026-06-28T15:52:24.213Z",
+      "hash": "8331204555556992162",
+      "startTime": "2026-06-29T15:45:36.382Z",
+      "endTime": "2026-06-29T15:45:43.253Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 0
