@@ -1,4 +1,9 @@
 <Solution>
   <Project Path="EmployeeService/EmployeeService.csproj" />
   <Project Path="AuthService/AuthService.csproj" />
+  <Project Path = "AssetService/AssetManagementSystem.Api.csproj" />
+  <Project Path = "HelpDeskService/HelpdeskService.csproj" />
+  <Project Path = "InventoryService/Inventory.API/Inventory.API.csproj" />
+  <Project Path = "ModuleRegistryApi/ModuleRegistryApi.csproj" />
+
 </Solution>
