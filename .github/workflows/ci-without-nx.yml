@@ -1,10 +1,13 @@
 name: CI without Nx
 
 on:
-  push:
+  # push:
+  #   branches:
+  #     - none # Disable automatic triggering to avoid duplicate CI runs. Change to 'main' if you prefer this one.
+    pull_request:
     branches:
-      - none # Disable automatic triggering to avoid duplicate CI runs. Change to 'main' if you prefer this one.
-  workflow_dispatch:
+      - main
+  # workflow_dispatch:
 
 jobs:
   build-and-test:
