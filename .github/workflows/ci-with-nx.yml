@@ -43,12 +43,16 @@ jobs:
       - name: Build .NET Backend
         run: dotnet build backend/EnterprisePortal.slnx
 
+      - name: Set Nx SHAs for Affected Commands
+        uses: nrwl/nx-set-shas@v4
+
       - name: Run Nx Tests
-        # Run tests across all Nx projects
-        run: npx nx run-many -t test --all || echo "No tests found or tests failed"
+        # Only run tests for affected projects
+        run: npx nx affected -t test || echo "No tests found or tests failed"
 
       - name: Run Nx Build
-        run: npx nx run-many -t build --all
+        # Only build affected projects
+        run: npx nx affected -t build
 
   security-scans:
     name: Security Scans
