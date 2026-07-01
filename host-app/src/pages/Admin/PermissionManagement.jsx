@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import "./PermissionManagement.css";
 
 function PermissionManagement() {
@@ -18,7 +18,7 @@ function PermissionManagement() {
         fetchData();
     }, []);
 
-    const fetchData = async () => {
+    async function fetchData() {
         try {
             const rolesRes = await fetch("http://localhost:5005/api/roles");
             const rolesData = await rolesRes.json();

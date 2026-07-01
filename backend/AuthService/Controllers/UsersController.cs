@@ -72,7 +72,7 @@ public class UsersController : ControllerBase
 
         _context.Users.Remove(user);
         await _context.SaveChangesAsync();
-        
+
         return Ok(new { Message = "User deleted successfully" });
     }
 }

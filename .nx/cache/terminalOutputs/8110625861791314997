@@ -1,0 +1,18 @@
+
+> host-app@0.0.0 lint
+> eslint .
+
+[0m
+[4mC:\Users\udayo\OneDrive\Desktop\mf_2\podman\host-app\vite.config.js[24m
+  [2m1:24[22m  [31merror[39m  'loadEnv' is defined but never used  [2mno-unused-vars[22m
+  [2m5:32[22m  [31merror[39m  'mode' is defined but never used     [2mno-unused-vars[22m
+
+[31m[1m✖ 2 problems (2 errors, 0 warnings)[22m[39m
+[0m
+npm error Lifecycle script `lint` failed with error:
+npm error code 1
+npm error path C:\Users\udayo\OneDrive\Desktop\mf_2\podman\host-app
+npm error workspace host-app@0.0.0
+npm error location C:\Users\udayo\OneDrive\Desktop\mf_2\podman\host-app
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c eslint .

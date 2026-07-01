@@ -1,8 +1,13 @@
 {
   "version": "6.0",
-  "nxVersion": "23.0.1",
+  "nxVersion": "22.7.6",
   "pathMappings": {},
-  "nxJsonPlugins": [],
+  "nxJsonPlugins": [
+    {
+      "name": "@nx-dotnet/core",
+      "version": "^3.0.2"
+    }
+  ],
   "fileMap": {
     "nonProjectFiles": [
       {
@@ -11,1379 +16,59 @@
       },
       {
         "file": ".github/workflows/ci-with-nx.yml",
-        "hash": "12874610293527042963"
+        "hash": "8920960450542106437"
       },
       {
         "file": ".github/workflows/ci-without-nx.yml",
-        "hash": "3427777864079748459"
+        "hash": "11641438965856422734"
       },
       {
         "file": ".gitignore",
         "hash": "12052373011024107241"
       },
       {
-        "file": "backend/AssetService/.gitignore",
-        "hash": "15062976645021654071"
+        "file": "Directory.Build.props",
+        "hash": "10464004444147701177"
       },
       {
-        "file": "backend/AssetService/AssetManagementSystem.Api.csproj",
-        "hash": "915687327660225964"
-      },
-      {
-        "file": "backend/AssetService/Controllers/AssetsController.cs",
-        "hash": "9370054951588642671"
-      },
-      {
-        "file": "backend/AssetService/Controllers/AssignmentsController.cs",
-        "hash": "3624282922288533536"
-      },
-      {
-        "file": "backend/AssetService/Controllers/DashboardController.cs",
-        "hash": "3697879445142935956"
-      },
-      {
-        "file": "backend/AssetService/DTOs/AssetDtos.cs",
-        "hash": "15161355263537542797"
-      },
-      {
-        "file": "backend/AssetService/DTOs/AssignmentDtos.cs",
-        "hash": "16150866423942969297"
-      },
-      {
-        "file": "backend/AssetService/DTOs/DashboardDto.cs",
-        "hash": "18302119847454430574"
-      },
-      {
-        "file": "backend/AssetService/DTOs/PagedResult.cs",
-        "hash": "2602521982779904904"
-      },
-      {
-        "file": "backend/AssetService/Data/AppDbContext.cs",
-        "hash": "999582985213285974"
-      },
-      {
-        "file": "backend/AssetService/Dockerfile",
-        "hash": "3865510449083399582"
-      },
-      {
-        "file": "backend/AssetService/Middleware/PermissionMiddleware.cs",
-        "hash": "5934381318656367742"
-      },
-      {
-        "file": "backend/AssetService/Migrations/20260608082140_InitialCreate.Designer.cs",
-        "hash": "1416347378453168596"
-      },
-      {
-        "file": "backend/AssetService/Migrations/20260608082140_InitialCreate.cs",
-        "hash": "17115558931750981603"
-      },
-      {
-        "file": "backend/AssetService/Migrations/20260617110644_AutoIncrementGuid.Designer.cs",
-        "hash": "3568983601167476954"
-      },
-      {
-        "file": "backend/AssetService/Migrations/20260617110644_AutoIncrementGuid.cs",
-        "hash": "4696249172784176495"
-      },
-      {
-        "file": "backend/AssetService/Migrations/AppDbContextModelSnapshot.cs",
-        "hash": "7781671252187501058"
-      },
-      {
-        "file": "backend/AssetService/Models/Asset.cs",
-        "hash": "9805798868991455974"
-      },
-      {
-        "file": "backend/AssetService/Models/AssetStatus.cs",
-        "hash": "8795481785643738094"
-      },
-      {
-        "file": "backend/AssetService/Models/Assignment.cs",
-        "hash": "5470252721991589811"
-      },
-      {
-        "file": "backend/AssetService/Program.cs",
-        "hash": "3562763646116109230"
-      },
-      {
-        "file": "backend/AssetService/Properties/launchSettings.json",
-        "hash": "15747562607092843943"
-      },
-      {
-        "file": "backend/AssetService/Services/AssetService.cs",
-        "hash": "9489052544710911896"
-      },
-      {
-        "file": "backend/AssetService/Services/AssignmentService.cs",
-        "hash": "8127808960254098786"
-      },
-      {
-        "file": "backend/AssetService/Services/DashboardService.cs",
-        "hash": "9290374082683597233"
-      },
-      {
-        "file": "backend/AssetService/Services/IAssetService.cs",
-        "hash": "12039513851535870922"
-      },
-      {
-        "file": "backend/AssetService/Services/IAssignmentService.cs",
-        "hash": "6867854121768419393"
-      },
-      {
-        "file": "backend/AssetService/Services/IDashboardService.cs",
-        "hash": "6298796870403885487"
-      },
-      {
-        "file": "backend/AssetService/appsettings.Development.json",
-        "hash": "7226380718778773079"
-      },
-      {
-        "file": "backend/AssetService/appsettings.json",
-        "hash": "9254917179491487414"
-      },
-      {
-        "file": "backend/AssetService/runtimeconfig.template.json",
-        "hash": "3580167024625123276"
-      },
-      {
-        "file": "backend/AuthService/.gitignore",
-        "hash": "15062976645021654071"
-      },
-      {
-        "file": "backend/AuthService/AuthService.csproj",
-        "hash": "3622994043514770051"
-      },
-      {
-        "file": "backend/AuthService/AuthService.http",
-        "hash": "398679056387208696"
-      },
-      {
-        "file": "backend/AuthService/Controllers/AccessController.cs",
-        "hash": "5853935893347705440"
-      },
-      {
-        "file": "backend/AuthService/Controllers/AuditLogsController.cs",
-        "hash": "16237473128041604827"
-      },
-      {
-        "file": "backend/AuthService/Controllers/AuthController.cs",
-        "hash": "17214416844379302482"
-      },
-      {
-        "file": "backend/AuthService/Controllers/PermissionsController.cs",
-        "hash": "13473038214347805483"
-      },
-      {
-        "file": "backend/AuthService/Controllers/RolesController.cs",
-        "hash": "218257683567160089"
-      },
-      {
-        "file": "backend/AuthService/Controllers/UsersController.cs",
-        "hash": "17213060971652733248"
-      },
-      {
-        "file": "backend/AuthService/Data/ApplicationDbContext.cs",
-        "hash": "10352893249029463972"
-      },
-      {
-        "file": "backend/AuthService/Dockerfile",
-        "hash": "2711833243350683499"
-      },
-      {
-        "file": "backend/AuthService/Migrations/20260626082801_InitialUpdate.Designer.cs",
-        "hash": "10486096385929204387"
-      },
-      {
-        "file": "backend/AuthService/Migrations/20260626082801_InitialUpdate.cs",
-        "hash": "16502711911996001026"
-      },
-      {
-        "file": "backend/AuthService/Migrations/ApplicationDbContextModelSnapshot.cs",
-        "hash": "15585097869076054069"
-      },
-      {
-        "file": "backend/AuthService/Models/AuditLog.cs",
-        "hash": "9653623516557323537"
-      },
-      {
-        "file": "backend/AuthService/Models/Permission.cs",
-        "hash": "13108292927322169672"
-      },
-      {
-        "file": "backend/AuthService/Models/Role.cs",
-        "hash": "1142204840444010066"
-      },
-      {
-        "file": "backend/AuthService/Models/RolePermission.cs",
-        "hash": "12157722063126379769"
-      },
-      {
-        "file": "backend/AuthService/Models/User.cs",
-        "hash": "365101091928760001"
-      },
-      {
-        "file": "backend/AuthService/Models/UserRole.cs",
-        "hash": "5106140568123183285"
-      },
-      {
-        "file": "backend/AuthService/Program.cs",
-        "hash": "5003858462581473812"
-      },
-      {
-        "file": "backend/AuthService/Properties/launchSettings.json",
-        "hash": "4675396910812422394"
-      },
-      {
-        "file": "backend/AuthService/appsettings.Development.json",
-        "hash": "3339958947771738801"
-      },
-      {
-        "file": "backend/AuthService/appsettings.json",
-        "hash": "3408174371905421414"
-      },
-      {
-        "file": "backend/EmployeeService/.dockerignore",
-        "hash": "13583038632301014650"
-      },
-      {
-        "file": "backend/EmployeeService/.gitignore",
-        "hash": "15062976645021654071"
-      },
-      {
-        "file": "backend/EmployeeService/Common/ApiResponse.cs",
-        "hash": "689035461090547133"
-      },
-      {
-        "file": "backend/EmployeeService/Controllers/EmployeeController.cs",
-        "hash": "11216238379820364396"
-      },
-      {
-        "file": "backend/EmployeeService/DTOs/Requests/CreateEmployeeRequest.cs",
-        "hash": "13278833917870065165"
-      },
-      {
-        "file": "backend/EmployeeService/DTOs/Requests/UpdateEmployeeRequest.cs",
-        "hash": "17061024068457118236"
-      },
-      {
-        "file": "backend/EmployeeService/DTOs/Response/EmployeeResponse.cs",
-        "hash": "3510392517778661520"
-      },
-      {
-        "file": "backend/EmployeeService/Data/AppDbContext.cs",
-        "hash": "5442109185166272824"
-      },
-      {
-        "file": "backend/EmployeeService/Dockerfile",
-        "hash": "3154874741511154834"
-      },
-      {
-        "file": "backend/EmployeeService/EmployeeService.csproj",
-        "hash": "15809297599988146945"
-      },
-      {
-        "file": "backend/EmployeeService/EmployeeService.http",
-        "hash": "13561561233654314872"
-      },
-      {
-        "file": "backend/EmployeeService/Extensions/MiddlewareExtensions.cs",
-        "hash": "8830875211863095971"
-      },
-      {
-        "file": "backend/EmployeeService/Extensions/ServiceExtension.cs",
-        "hash": "10302732781497322042"
-      },
-      {
-        "file": "backend/EmployeeService/Interfaces/IRepository/IEmployeeRepository.cs",
-        "hash": "4158724594997824440"
-      },
-      {
-        "file": "backend/EmployeeService/Interfaces/IServices/IEmployeeService.cs",
-        "hash": "1571921960423411510"
-      },
-      {
-        "file": "backend/EmployeeService/Mappings/MappingProfile.cs",
-        "hash": "4901400430372996885"
-      },
-      {
-        "file": "backend/EmployeeService/Middleware/ExceptionMiddleware.cs",
-        "hash": "16589083359429954634"
-      },
-      {
-        "file": "backend/EmployeeService/Migrations/20260607101915_InitialCreate.Designer.cs",
-        "hash": "17058789370268769264"
-      },
-      {
-        "file": "backend/EmployeeService/Migrations/20260607101915_InitialCreate.cs",
-        "hash": "1679598385397564524"
-      },
-      {
-        "file": "backend/EmployeeService/Migrations/20260616143403_AddRoleIdToEmployee.Designer.cs",
-        "hash": "7781664969079832534"
-      },
-      {
-        "file": "backend/EmployeeService/Migrations/20260616143403_AddRoleIdToEmployee.cs",
-        "hash": "12914732798639762955"
-      },
-      {
-        "file": "backend/EmployeeService/Migrations/20260617110537_AutoIncrementGuid.Designer.cs",
-        "hash": "14399035539382863285"
-      },
-      {
-        "file": "backend/EmployeeService/Migrations/20260617110537_AutoIncrementGuid.cs",
-        "hash": "2791888468885232783"
-      },
-      {
-        "file": "backend/EmployeeService/Migrations/20260618010446_UpdateRoleIdToGuid.Designer.cs",
-        "hash": "4365095844040278257"
-      },
-      {
-        "file": "backend/EmployeeService/Migrations/20260618010446_UpdateRoleIdToGuid.cs",
-        "hash": "9057226815646461005"
-      },
-      {
-        "file": "backend/EmployeeService/Migrations/AppDbContextModelSnapshot.cs",
-        "hash": "7275806858183549898"
-      },
-      {
-        "file": "backend/EmployeeService/Models/Employee.cs",
-        "hash": "6899063878988650127"
-      },
-      {
-        "file": "backend/EmployeeService/Program.cs",
-        "hash": "147899124975831161"
-      },
-      {
-        "file": "backend/EmployeeService/Properties/launchSettings.json",
-        "hash": "11133229316438074918"
-      },
-      {
-        "file": "backend/EmployeeService/Repositories/EmployeeRepository.cs",
-        "hash": "2495971849040504859"
-      },
-      {
-        "file": "backend/EmployeeService/Services/EmployeeService.cs",
-        "hash": "15533123532423301273"
-      },
-      {
-        "file": "backend/EmployeeService/Validators/CreateEmployeeValidator.cs",
-        "hash": "1545435285584433252"
-      },
-      {
-        "file": "backend/EmployeeService/appsettings.Development.json",
-        "hash": "3339958947771738801"
-      },
-      {
-        "file": "backend/EmployeeService/appsettings.json",
-        "hash": "6714855302955791648"
+        "file": "Directory.Build.targets",
+        "hash": "9005165865624102645"
       },
       {
         "file": "backend/EnterprisePortal.slnx",
-        "hash": "12064252963207030403"
-      },
-      {
-        "file": "backend/HelpDeskService/.gitignore",
-        "hash": "15062976645021654071"
-      },
-      {
-        "file": "backend/HelpDeskService/Containerfile",
-        "hash": "714170298125747853"
-      },
-      {
-        "file": "backend/HelpDeskService/Controllers/AuthController.cs",
-        "hash": "12867973218061662860"
-      },
-      {
-        "file": "backend/HelpDeskService/Controllers/TicketController.cs",
-        "hash": "13145505623550354004"
-      },
-      {
-        "file": "backend/HelpDeskService/DTOs/AssignTicketDto.cs",
-        "hash": "14048584483489539999"
-      },
-      {
-        "file": "backend/HelpDeskService/DTOs/CreateCommentDto.cs",
-        "hash": "2790614756699311321"
-      },
-      {
-        "file": "backend/HelpDeskService/DTOs/CreateTicketDto.cs",
-        "hash": "750609267944194244"
-      },
-      {
-        "file": "backend/HelpDeskService/DTOs/TicketCommentDto.cs",
-        "hash": "13009475142675898111"
-      },
-      {
-        "file": "backend/HelpDeskService/DTOs/TicketDto.cs",
-        "hash": "18367897179003769444"
-      },
-      {
-        "file": "backend/HelpDeskService/DTOs/TicketHistoryDto.cs",
-        "hash": "8903716643268929315"
-      },
-      {
-        "file": "backend/HelpDeskService/DTOs/UpdateStatusDto.cs",
-        "hash": "3696372660444471282"
-      },
-      {
-        "file": "backend/HelpDeskService/DTOs/UpdateTicketDto.cs",
-        "hash": "3850946815765240760"
-      },
-      {
-        "file": "backend/HelpDeskService/Data/ApplicationDbContext.cs",
-        "hash": "9823009269744375239"
-      },
-      {
-        "file": "backend/HelpDeskService/Exceptions/NotFoundException.cs",
-        "hash": "7319081865650537900"
-      },
-      {
-        "file": "backend/HelpDeskService/Exceptions/ValidationException.cs",
-        "hash": "18048331840163374167"
-      },
-      {
-        "file": "backend/HelpDeskService/HelpdeskService.csproj",
-        "hash": "11380679402332610359"
-      },
-      {
-        "file": "backend/HelpDeskService/HelpdeskService.http",
-        "hash": "13703474122110002661"
-      },
-      {
-        "file": "backend/HelpDeskService/Middleware/ExceptionHandlingMiddleware.cs",
-        "hash": "15843870350652206361"
-      },
-      {
-        "file": "backend/HelpDeskService/Migrations/ApplicationDbContextModelSnapshot.cs",
-        "hash": "7016376761880171832"
-      },
-      {
-        "file": "backend/HelpDeskService/Models/Ticket.cs",
-        "hash": "5358863796390298765"
-      },
-      {
-        "file": "backend/HelpDeskService/Models/TicketComment.cs",
-        "hash": "107679761922999140"
-      },
-      {
-        "file": "backend/HelpDeskService/Models/TicketHistory.cs",
-        "hash": "14226677232792562200"
-      },
-      {
-        "file": "backend/HelpDeskService/Models/TicketPriority.cs",
-        "hash": "11948389467019272953"
-      },
-      {
-        "file": "backend/HelpDeskService/Models/TicketStatus.cs",
-        "hash": "16418153213907809527"
-      },
-      {
-        "file": "backend/HelpDeskService/Program.cs",
-        "hash": "661931825616691104"
-      },
-      {
-        "file": "backend/HelpDeskService/Properties/launchSettings.json",
-        "hash": "8376115677837164081"
-      },
-      {
-        "file": "backend/HelpDeskService/Repositories/ITicketRepository.cs",
-        "hash": "11473743042997661114"
-      },
-      {
-        "file": "backend/HelpDeskService/Repositories/TicketRepository.cs",
-        "hash": "3878432808329442505"
-      },
-      {
-        "file": "backend/HelpDeskService/Services/ITicketService.cs",
-        "hash": "14093724864275388718"
-      },
-      {
-        "file": "backend/HelpDeskService/Services/TicketService.cs",
-        "hash": "12187786203207344706"
-      },
-      {
-        "file": "backend/HelpDeskService/appsettings.Development.json",
-        "hash": "5016617951019195492"
-      },
-      {
-        "file": "backend/HelpDeskService/appsettings.json",
-        "hash": "3986926775718128271"
-      },
-      {
-        "file": "backend/InventoryService/Inventory.API/.gitignore",
-        "hash": "15062976645021654071"
-      },
-      {
-        "file": "backend/InventoryService/Inventory.API/Containerfile",
-        "hash": "1428782363176720325"
-      },
-      {
-        "file": "backend/InventoryService/Inventory.API/Controllers/ProductController.cs",
-        "hash": "14920308556425941089"
-      },
-      {
-        "file": "backend/InventoryService/Inventory.API/DTOs/CreateProductDto.cs",
-        "hash": "16526022273178714416"
-      },
-      {
-        "file": "backend/InventoryService/Inventory.API/DTOs/ProductResponseDto.cs",
-        "hash": "6918609225208996586"
-      },
-      {
-        "file": "backend/InventoryService/Inventory.API/DTOs/UpdateProductDto.cs",
-        "hash": "6590265076221342345"
-      },
-      {
-        "file": "backend/InventoryService/Inventory.API/Data/ApplicationDbContext.cs",
-        "hash": "13022624667875645816"
-      },
-      {
-        "file": "backend/InventoryService/Inventory.API/Entities/Product.cs",
-        "hash": "863992135008330087"
-      },
-      {
-        "file": "backend/InventoryService/Inventory.API/Inventory.API.csproj",
-        "hash": "13910011505548665820"
-      },
-      {
-        "file": "backend/InventoryService/Inventory.API/Inventory.API.http",
-        "hash": "8066743361111251498"
-      },
-      {
-        "file": "backend/InventoryService/Inventory.API/Middleware/ExceptionMiddleware.cs",
-        "hash": "18083728981977049464"
-      },
-      {
-        "file": "backend/InventoryService/Inventory.API/Migrations/20260608090215_InitialCreate.Designer.cs",
-        "hash": "3215247629825687113"
-      },
-      {
-        "file": "backend/InventoryService/Inventory.API/Migrations/20260608090215_InitialCreate.cs",
-        "hash": "10607741508334673417"
-      },
-      {
-        "file": "backend/InventoryService/Inventory.API/Migrations/20260617110707_AutoIncrementGuid.Designer.cs",
-        "hash": "1232353021972783017"
-      },
-      {
-        "file": "backend/InventoryService/Inventory.API/Migrations/20260617110707_AutoIncrementGuid.cs",
-        "hash": "6404366033711937149"
-      },
-      {
-        "file": "backend/InventoryService/Inventory.API/Migrations/ApplicationDbContextModelSnapshot.cs",
-        "hash": "11036546643085887076"
-      },
-      {
-        "file": "backend/InventoryService/Inventory.API/Program.cs",
-        "hash": "15800930806832319045"
-      },
-      {
-        "file": "backend/InventoryService/Inventory.API/Properties/launchSettings.json",
-        "hash": "12884490104541717585"
-      },
-      {
-        "file": "backend/InventoryService/Inventory.API/Repositories/IProductRepository.cs",
-        "hash": "8881001019402094936"
-      },
-      {
-        "file": "backend/InventoryService/Inventory.API/Repositories/ProductRepository.cs",
-        "hash": "16300234435727347846"
-      },
-      {
-        "file": "backend/InventoryService/Inventory.API/Services/IProductService.cs",
-        "hash": "8784453077727162158"
-      },
-      {
-        "file": "backend/InventoryService/Inventory.API/Services/ProductService.cs",
-        "hash": "10130587393482199798"
-      },
-      {
-        "file": "backend/InventoryService/Inventory.API/appsettings.Development.json",
-        "hash": "3339958947771738801"
-      },
-      {
-        "file": "backend/InventoryService/Inventory.API/appsettings.Production.json",
-        "hash": "10894832727268911112"
-      },
-      {
-        "file": "backend/InventoryService/Inventory.API/appsettings.json",
-        "hash": "13260192324236200952"
-      },
-      {
-        "file": "backend/InventoryService/InventoryManagement.slnx",
-        "hash": "5743987597554655021"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/Data/ApplicationDbContext.cs",
-        "hash": "6811994020088647203"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/Migrations/20260626080533_InitialCreate.Designer.cs",
-        "hash": "517221659067028329"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/Migrations/20260626080533_InitialCreate.cs",
-        "hash": "10746860657871638359"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/Migrations/ApplicationDbContextModelSnapshot.cs",
-        "hash": "15799061506813680967"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/Models/Module.cs",
-        "hash": "4646777018286852693"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/ModuleRegistryApi.csproj",
-        "hash": "1497352104951563867"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/Program.cs",
-        "hash": "5632092989340297455"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/Properties/launchSettings.json",
-        "hash": "14039736126932932626"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/appsettings.Development.json",
-        "hash": "9436049376977969916"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/appsettings.json",
-        "hash": "11230172663095137121"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-net472/Microsoft.Build.Locator.dll",
-        "hash": "13859066305440025920"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-net472/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.exe",
-        "hash": "3389028254571052109"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-net472/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.exe.config",
-        "hash": "10389324566367765209"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-net472/Microsoft.IO.Redist.dll",
-        "hash": "2542675241355527671"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-net472/Newtonsoft.Json.dll",
-        "hash": "5414002958457192386"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-net472/System.Buffers.dll",
-        "hash": "17559392442830185062"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-net472/System.Collections.Immutable.dll",
-        "hash": "6235423543690145214"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-net472/System.CommandLine.dll",
-        "hash": "8601092409276036285"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-net472/System.Memory.dll",
-        "hash": "7932745561597471927"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-net472/System.Numerics.Vectors.dll",
-        "hash": "3021283950410637527"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-net472/System.Runtime.CompilerServices.Unsafe.dll",
-        "hash": "17884945542746302562"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-net472/System.Threading.Tasks.Extensions.dll",
-        "hash": "14875392801240616353"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-net472/cs/System.CommandLine.resources.dll",
-        "hash": "16555959692785598199"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-net472/de/System.CommandLine.resources.dll",
-        "hash": "16250339720108512288"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-net472/es/System.CommandLine.resources.dll",
-        "hash": "10814518750590837679"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-net472/fr/System.CommandLine.resources.dll",
-        "hash": "2795179062841652015"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-net472/it/System.CommandLine.resources.dll",
-        "hash": "17859791852082248088"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-net472/ja/System.CommandLine.resources.dll",
-        "hash": "11036217742105983318"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-net472/ko/System.CommandLine.resources.dll",
-        "hash": "2241934357175431786"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-net472/pl/System.CommandLine.resources.dll",
-        "hash": "811959191925355144"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-net472/pt-BR/System.CommandLine.resources.dll",
-        "hash": "10740881528790815553"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-net472/ru/System.CommandLine.resources.dll",
-        "hash": "16642341361110181955"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-net472/tr/System.CommandLine.resources.dll",
-        "hash": "12805365240381486807"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-net472/zh-Hans/System.CommandLine.resources.dll",
-        "hash": "14983827604298752427"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-net472/zh-Hant/System.CommandLine.resources.dll",
-        "hash": "9011576552184847148"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-netcore/Microsoft.Build.Locator.dll",
-        "hash": "6840787507710072871"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-netcore/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.deps.json",
-        "hash": "4470120888584902147"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-netcore/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll",
-        "hash": "12760040338179012624"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-netcore/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.runtimeconfig.json",
-        "hash": "8291258919066102334"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-netcore/Newtonsoft.Json.dll",
-        "hash": "15082964500609847605"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-netcore/System.Collections.Immutable.dll",
-        "hash": "8377611850790319110"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-netcore/System.CommandLine.dll",
-        "hash": "3115485940989253619"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-netcore/cs/System.CommandLine.resources.dll",
-        "hash": "11880152619743101037"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-netcore/de/System.CommandLine.resources.dll",
-        "hash": "16105775071604701510"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-netcore/es/System.CommandLine.resources.dll",
-        "hash": "2616907471349964034"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-netcore/fr/System.CommandLine.resources.dll",
-        "hash": "9077868400950349251"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-netcore/it/System.CommandLine.resources.dll",
-        "hash": "13576817882372324336"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-netcore/ja/System.CommandLine.resources.dll",
-        "hash": "681184528798225917"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-netcore/ko/System.CommandLine.resources.dll",
-        "hash": "13665398116604743277"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-netcore/pl/System.CommandLine.resources.dll",
-        "hash": "14262687425638338193"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-netcore/pt-BR/System.CommandLine.resources.dll",
-        "hash": "12417048743955828787"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-netcore/ru/System.CommandLine.resources.dll",
-        "hash": "3972054492301524493"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-netcore/tr/System.CommandLine.resources.dll",
-        "hash": "14004319843174782177"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-netcore/zh-Hans/System.CommandLine.resources.dll",
-        "hash": "5203728224319758949"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/BuildHost-netcore/zh-Hant/System.CommandLine.resources.dll",
-        "hash": "12887282028634571479"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/Humanizer.dll",
-        "hash": "10286719546707737588"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/Microsoft.Build.Framework.dll",
-        "hash": "7954022978142375231"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll",
-        "hash": "10722687894021652843"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/Microsoft.CodeAnalysis.CSharp.dll",
-        "hash": "2153101798457860599"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll",
-        "hash": "14604887901895220141"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll",
-        "hash": "7839728788493655126"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/Microsoft.CodeAnalysis.Workspaces.dll",
-        "hash": "7813595690577029395"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/Microsoft.CodeAnalysis.dll",
-        "hash": "2678733543097052124"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll",
-        "hash": "17380736895346262944"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Design.dll",
-        "hash": "16439789516404650600"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Relational.dll",
-        "hash": "16695811150200713828"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.dll",
-        "hash": "10083092932927103777"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/Microsoft.Extensions.DependencyModel.dll",
-        "hash": "15276576517820246541"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/Microsoft.OpenApi.dll",
-        "hash": "13202206791722095777"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/Microsoft.VisualStudio.SolutionPersistence.dll",
-        "hash": "12575986465654884694"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/ModuleRegistryApi.deps.json",
-        "hash": "7043113641469650308"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/ModuleRegistryApi.dll",
-        "hash": "13961246311093468037"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/ModuleRegistryApi.exe",
-        "hash": "2032804051515426763"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/ModuleRegistryApi.pdb",
-        "hash": "2597314643672483728"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/ModuleRegistryApi.runtimeconfig.json",
-        "hash": "5233589819622177908"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/ModuleRegistryApi.staticwebassets.endpoints.json",
-        "hash": "9221313036531420426"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/Mono.TextTemplating.dll",
-        "hash": "14357950311120099560"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/Newtonsoft.Json.dll",
-        "hash": "9883149618478200357"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll",
-        "hash": "13865872458804639330"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/Npgsql.dll",
-        "hash": "3629170518449951571"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/Swashbuckle.AspNetCore.Swagger.dll",
-        "hash": "8228092918556942411"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
-        "hash": "14474576430593521679"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
-        "hash": "14521470038432770030"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/System.CodeDom.dll",
-        "hash": "10673895160472681057"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/System.Composition.AttributedModel.dll",
-        "hash": "11125815275527179058"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/System.Composition.Convention.dll",
-        "hash": "8108962953430845614"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/System.Composition.Hosting.dll",
-        "hash": "5918874132295498771"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/System.Composition.Runtime.dll",
-        "hash": "15558347800220954949"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/System.Composition.TypedParts.dll",
-        "hash": "2893125329089128823"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/appsettings.Development.json",
-        "hash": "9436049376977969916"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/appsettings.json",
-        "hash": "11230172663095137121"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
-        "hash": "14983038544929387567"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "hash": "10127518730343244289"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll",
-        "hash": "14522272334432995493"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll",
-        "hash": "16611345516872731594"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/cs/Microsoft.CodeAnalysis.resources.dll",
-        "hash": "16677478283810306769"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
-        "hash": "2208265549364401301"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "hash": "16028674593567923474"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll",
-        "hash": "10365177935784309776"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll",
-        "hash": "17874448031996233016"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/de/Microsoft.CodeAnalysis.resources.dll",
-        "hash": "15454311171854415403"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
-        "hash": "16796124712480504571"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "hash": "9052284813587141178"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll",
-        "hash": "18266261623242139894"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll",
-        "hash": "99431131090766864"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/es/Microsoft.CodeAnalysis.resources.dll",
-        "hash": "12605797315731565344"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
-        "hash": "13236540173042339448"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "hash": "15737035425160091922"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll",
-        "hash": "5416381472369606774"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll",
-        "hash": "12142201486457796667"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/fr/Microsoft.CodeAnalysis.resources.dll",
-        "hash": "7273823348094242402"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
-        "hash": "7846750340101212957"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "hash": "1941900483180844201"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll",
-        "hash": "18187104832156402883"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll",
-        "hash": "14372207513101511106"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/it/Microsoft.CodeAnalysis.resources.dll",
-        "hash": "4060174658047643217"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
-        "hash": "16775815986683960811"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "hash": "17992316624898198689"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll",
-        "hash": "5327067866716546674"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll",
-        "hash": "5734860151334173749"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/ja/Microsoft.CodeAnalysis.resources.dll",
-        "hash": "11224323275786890206"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
-        "hash": "4603034618586880945"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "hash": "15875545567913979938"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll",
-        "hash": "16171985446391951328"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll",
-        "hash": "6708027891304274404"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/ko/Microsoft.CodeAnalysis.resources.dll",
-        "hash": "3998897188390662652"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
-        "hash": "924286929010046826"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "hash": "46280140996873403"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll",
-        "hash": "8956740646638721017"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll",
-        "hash": "8895886414461351212"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.resources.dll",
-        "hash": "14455268846895698132"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
-        "hash": "10247881069238965131"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "hash": "17077331131067883975"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll",
-        "hash": "11512353273966622467"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll",
-        "hash": "5145775271168492995"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/pt-BR/Microsoft.CodeAnalysis.resources.dll",
-        "hash": "8416267610598643226"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
-        "hash": "11745621782634742217"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "hash": "12476537664328246894"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll",
-        "hash": "6897077249328984602"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll",
-        "hash": "5803712967015152037"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/ru/Microsoft.CodeAnalysis.resources.dll",
-        "hash": "769792990935083673"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
-        "hash": "4658478028076889766"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "hash": "5094127552396014226"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll",
-        "hash": "1219415587492494665"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll",
-        "hash": "10869352768289691752"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.resources.dll",
-        "hash": "1103895261534337130"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
-        "hash": "15630091267903016985"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "hash": "1611264687136889879"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll",
-        "hash": "14353551345711301212"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll",
-        "hash": "3069143389505554308"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll",
-        "hash": "3839791623107372364"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
-        "hash": "17377071469154837181"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "hash": "17424687462258511206"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll",
-        "hash": "11859485488296418628"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll",
-        "hash": "17021371682105043408"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll",
-        "hash": "10250132450617984965"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.cs",
-        "hash": "9132389464768224595"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/obj/Debug/net10.0/ModuleRe.64FE11EC.Up2Date",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/obj/Debug/net10.0/ModuleRegistryApi.AssemblyInfo.cs",
-        "hash": "12092213404646396597"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/obj/Debug/net10.0/ModuleRegistryApi.AssemblyInfoInputs.cache",
-        "hash": "3899543760459709728"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/obj/Debug/net10.0/ModuleRegistryApi.GeneratedMSBuildEditorConfig.editorconfig",
-        "hash": "10070105479594373142"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/obj/Debug/net10.0/ModuleRegistryApi.GlobalUsings.g.cs",
-        "hash": "16952105888278251274"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/obj/Debug/net10.0/ModuleRegistryApi.MvcApplicationPartsAssemblyInfo.cache",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/obj/Debug/net10.0/ModuleRegistryApi.MvcApplicationPartsAssemblyInfo.cs",
-        "hash": "6168582515218788616"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/obj/Debug/net10.0/ModuleRegistryApi.assets.cache",
-        "hash": "11973036966091273259"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/obj/Debug/net10.0/ModuleRegistryApi.csproj.AssemblyReference.cache",
-        "hash": "1277896065855245654"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/obj/Debug/net10.0/ModuleRegistryApi.csproj.CoreCompileInputs.cache",
-        "hash": "16285761625587037633"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/obj/Debug/net10.0/ModuleRegistryApi.csproj.FileListAbsolute.txt",
-        "hash": "15247053509461041230"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/obj/Debug/net10.0/ModuleRegistryApi.dll",
-        "hash": "13961246311093468037"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/obj/Debug/net10.0/ModuleRegistryApi.genruntimeconfig.cache",
-        "hash": "12694075787774109288"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/obj/Debug/net10.0/ModuleRegistryApi.pdb",
-        "hash": "2597314643672483728"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/obj/Debug/net10.0/ModuleRegistryApi.sourcelink.json",
-        "hash": "2552304372581992685"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/obj/Debug/net10.0/apphost.exe",
-        "hash": "2032804051515426763"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/obj/Debug/net10.0/ref/ModuleRegistryApi.dll",
-        "hash": "8652659613245985110"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/obj/Debug/net10.0/refint/ModuleRegistryApi.dll",
-        "hash": "8652659613245985110"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json",
-        "hash": "4379406617770641452"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/obj/Debug/net10.0/rjsmrazor.dswa.cache.json",
-        "hash": "1002796178664769693"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/obj/Debug/net10.0/rpswa.dswa.cache.json",
-        "hash": "7707130613659344097"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/obj/Debug/net10.0/staticwebassets.build.endpoints.json",
-        "hash": "9221313036531420426"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/obj/Debug/net10.0/staticwebassets.build.json",
-        "hash": "6478243627735329952"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/obj/Debug/net10.0/staticwebassets.build.json.cache",
-        "hash": "11158453499261177657"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/obj/Debug/net10.0/swae.build.ex.cache",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/obj/ModuleRegistryApi.csproj.nuget.dgspec.json",
-        "hash": "7307955431677245582"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/obj/ModuleRegistryApi.csproj.nuget.g.props",
-        "hash": "6101315282849394393"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/obj/ModuleRegistryApi.csproj.nuget.g.targets",
-        "hash": "9330384861647949684"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/obj/project.assets.json",
-        "hash": "989791495163418919"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/obj/project.nuget.cache",
-        "hash": "91054934728674681"
-      },
-      {
-        "file": "backend/ModuleRegistryApi/seed.js",
-        "hash": "13965687360640650456"
+        "hash": "12115646244314209961"
       },
       {
         "file": "compose.yml",
         "hash": "17102140449870890891"
       },
       {
+        "file": "dotnet-tools.json",
+        "hash": "11380184037138673491"
+      },
+      {
         "file": "graph.json",
         "hash": "2317786750953699682"
       },
       {
+        "file": "lint-emp.txt",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "lint-output.txt",
+        "hash": "3244421341483603138"
+      },
+      {
         "file": "nx.json",
-        "hash": "11352990052112892296"
+        "hash": "10192686752003357301"
       },
       {
         "file": "package-lock.json",
-        "hash": "11752571890768304052"
+        "hash": "3768864495778948298"
       },
       {
         "file": "package.json",
-        "hash": "7062579429408172188"
+        "hash": "502379257392948654"
       },
       {
         "file": "postgres-init/init-db.sh",
@@ -1391,6 +76,190 @@
       }
     ],
     "projectFileMap": {
+      "ModuleRegistryApi": [
+        {
+          "file": "backend/ModuleRegistryApi/Data/ApplicationDbContext.cs",
+          "hash": "6811994020088647203"
+        },
+        {
+          "file": "backend/ModuleRegistryApi/Migrations/20260626080533_InitialCreate.Designer.cs",
+          "hash": "517221659067028329"
+        },
+        {
+          "file": "backend/ModuleRegistryApi/Migrations/20260626080533_InitialCreate.cs",
+          "hash": "10746860657871638359"
+        },
+        {
+          "file": "backend/ModuleRegistryApi/Migrations/ApplicationDbContextModelSnapshot.cs",
+          "hash": "15799061506813680967"
+        },
+        {
+          "file": "backend/ModuleRegistryApi/Models/Module.cs",
+          "hash": "6806440454646783076"
+        },
+        {
+          "file": "backend/ModuleRegistryApi/ModuleRegistryApi.csproj",
+          "hash": "1497352104951563867"
+        },
+        {
+          "file": "backend/ModuleRegistryApi/Program.cs",
+          "hash": "5632092989340297455"
+        },
+        {
+          "file": "backend/ModuleRegistryApi/Properties/launchSettings.json",
+          "hash": "14039736126932932626"
+        },
+        {
+          "file": "backend/ModuleRegistryApi/appsettings.Development.json",
+          "hash": "9436049376977969916"
+        },
+        {
+          "file": "backend/ModuleRegistryApi/appsettings.json",
+          "hash": "11230172663095137121"
+        },
+        {
+          "file": "backend/ModuleRegistryApi/seed.js",
+          "hash": "13965687360640650456"
+        }
+      ],
+      "EmployeeService": [
+        {
+          "file": "backend/EmployeeService/.dockerignore",
+          "hash": "13583038632301014650"
+        },
+        {
+          "file": "backend/EmployeeService/.gitignore",
+          "hash": "15062976645021654071"
+        },
+        {
+          "file": "backend/EmployeeService/Common/ApiResponse.cs",
+          "hash": "689035461090547133"
+        },
+        {
+          "file": "backend/EmployeeService/Controllers/EmployeeController.cs",
+          "hash": "4130447710041090026"
+        },
+        {
+          "file": "backend/EmployeeService/DTOs/Requests/CreateEmployeeRequest.cs",
+          "hash": "13278833917870065165"
+        },
+        {
+          "file": "backend/EmployeeService/DTOs/Requests/UpdateEmployeeRequest.cs",
+          "hash": "17061024068457118236"
+        },
+        {
+          "file": "backend/EmployeeService/DTOs/Response/EmployeeResponse.cs",
+          "hash": "3510392517778661520"
+        },
+        {
+          "file": "backend/EmployeeService/Data/AppDbContext.cs",
+          "hash": "5442109185166272824"
+        },
+        {
+          "file": "backend/EmployeeService/Dockerfile",
+          "hash": "3154874741511154834"
+        },
+        {
+          "file": "backend/EmployeeService/EmployeeService.csproj",
+          "hash": "15809297599988146945"
+        },
+        {
+          "file": "backend/EmployeeService/EmployeeService.http",
+          "hash": "13561561233654314872"
+        },
+        {
+          "file": "backend/EmployeeService/Extensions/MiddlewareExtensions.cs",
+          "hash": "11596480175718693767"
+        },
+        {
+          "file": "backend/EmployeeService/Extensions/ServiceExtension.cs",
+          "hash": "10302732781497322042"
+        },
+        {
+          "file": "backend/EmployeeService/Interfaces/IRepository/IEmployeeRepository.cs",
+          "hash": "4158724594997824440"
+        },
+        {
+          "file": "backend/EmployeeService/Interfaces/IServices/IEmployeeService.cs",
+          "hash": "1571921960423411510"
+        },
+        {
+          "file": "backend/EmployeeService/Mappings/MappingProfile.cs",
+          "hash": "4901400430372996885"
+        },
+        {
+          "file": "backend/EmployeeService/Middleware/ExceptionMiddleware.cs",
+          "hash": "16589083359429954634"
+        },
+        {
+          "file": "backend/EmployeeService/Migrations/20260607101915_InitialCreate.Designer.cs",
+          "hash": "17058789370268769264"
+        },
+        {
+          "file": "backend/EmployeeService/Migrations/20260607101915_InitialCreate.cs",
+          "hash": "1679598385397564524"
+        },
+        {
+          "file": "backend/EmployeeService/Migrations/20260616143403_AddRoleIdToEmployee.Designer.cs",
+          "hash": "7781664969079832534"
+        },
+        {
+          "file": "backend/EmployeeService/Migrations/20260616143403_AddRoleIdToEmployee.cs",
+          "hash": "12914732798639762955"
+        },
+        {
+          "file": "backend/EmployeeService/Migrations/20260617110537_AutoIncrementGuid.Designer.cs",
+          "hash": "14399035539382863285"
+        },
+        {
+          "file": "backend/EmployeeService/Migrations/20260617110537_AutoIncrementGuid.cs",
+          "hash": "2791888468885232783"
+        },
+        {
+          "file": "backend/EmployeeService/Migrations/20260618010446_UpdateRoleIdToGuid.Designer.cs",
+          "hash": "4365095844040278257"
+        },
+        {
+          "file": "backend/EmployeeService/Migrations/20260618010446_UpdateRoleIdToGuid.cs",
+          "hash": "9057226815646461005"
+        },
+        {
+          "file": "backend/EmployeeService/Migrations/AppDbContextModelSnapshot.cs",
+          "hash": "7275806858183549898"
+        },
+        {
+          "file": "backend/EmployeeService/Models/Employee.cs",
+          "hash": "6899063878988650127"
+        },
+        {
+          "file": "backend/EmployeeService/Program.cs",
+          "hash": "147899124975831161"
+        },
+        {
+          "file": "backend/EmployeeService/Properties/launchSettings.json",
+          "hash": "11133229316438074918"
+        },
+        {
+          "file": "backend/EmployeeService/Repositories/EmployeeRepository.cs",
+          "hash": "2495971849040504859"
+        },
+        {
+          "file": "backend/EmployeeService/Services/EmployeeService.cs",
+          "hash": "15533123532423301273"
+        },
+        {
+          "file": "backend/EmployeeService/Validators/CreateEmployeeValidator.cs",
+          "hash": "1545435285584433252"
+        },
+        {
+          "file": "backend/EmployeeService/appsettings.Development.json",
+          "hash": "3339958947771738801"
+        },
+        {
+          "file": "backend/EmployeeService/appsettings.json",
+          "hash": "6714855302955791648"
+        }
+      ],
       "inventory-mf": [
         {
           "file": "federations/inventory_mf/.dockerignore",
@@ -1419,6 +288,10 @@
         {
           "file": "federations/inventory_mf/index.html",
           "hash": "4215366644272003691"
+        },
+        {
+          "file": "federations/inventory_mf/lint.txt",
+          "hash": "3244421341483603138"
         },
         {
           "file": "federations/inventory_mf/nginx.conf",
@@ -1500,7 +373,7 @@
         },
         {
           "file": "federations/inventory_mf/src/layouts/MainLayout.jsx",
-          "hash": "7142812055124127775"
+          "hash": "7705366910285280651"
         },
         {
           "file": "federations/inventory_mf/src/main.jsx",
@@ -1556,56 +429,63 @@
         },
         {
           "file": "federations/inventory_mf/vite.config.js",
-          "hash": "12377235137324645663"
+          "hash": "3479116850751857018"
         }
       ],
-      "helpdesk-mf": [
+      "employee-mf": [
         {
-          "file": "federations/helpdesk_mf/.dockerignore",
+          "file": "federations/employee_mf/.dockerignore",
           "hash": "13486173271082641628"
         },
         {
-          "file": "federations/helpdesk_mf/.env.development",
-          "hash": "5570965236227569831"
+          "file": "federations/employee_mf/.env.development",
+          "hash": "14313221877797189253"
         },
         {
-          "file": "federations/helpdesk_mf/.env.production",
-          "hash": "6685876415680776984"
+          "file": "federations/employee_mf/.env.production",
+          "hash": "3810007431602835466"
         },
         {
-          "file": "federations/helpdesk_mf/.gitignore",
+          "file": "federations/employee_mf/.gitignore",
           "hash": "987422939859577920"
         },
         {
-          "file": "federations/helpdesk_mf/Dockerfile",
-          "hash": "6677353877304776144"
+          "file": "federations/employee_mf/.mf/diagnostics/latest.json",
+          "hash": "2197221193412349365"
         },
         {
-          "file": "federations/helpdesk_mf/README.md",
-          "hash": "12183045292125642857"
+          "file": "federations/employee_mf/Dockerfile",
+          "hash": "6838539257582298554"
         },
         {
-          "file": "federations/helpdesk_mf/eslint.config.js",
-          "hash": "18138883210913304672"
+          "file": "federations/employee_mf/README.md",
+          "hash": "17863574257080178437"
         },
         {
-          "file": "federations/helpdesk_mf/index.html",
-          "hash": "2124853318265600140"
+          "file": "federations/employee_mf/eslint.config.js",
+          "hash": "3232099070610865588"
         },
         {
-          "file": "federations/helpdesk_mf/nginx.conf",
+          "file": "federations/employee_mf/index.html",
+          "hash": "12659617745515635193"
+        },
+        {
+          "file": "federations/employee_mf/lint.txt",
+          "hash": "9485167335062420904"
+        },
+        {
+          "file": "federations/employee_mf/nginx.conf",
           "hash": "11279080501277044795"
         },
         {
-          "file": "federations/helpdesk_mf/package-lock.json",
-          "hash": "13931780538289985892"
+          "file": "federations/employee_mf/package-lock.json",
+          "hash": "4319565812356389816"
         },
         {
-          "file": "federations/helpdesk_mf/package.json",
-          "hash": "3507439976852755735",
+          "file": "federations/employee_mf/package.json",
+          "hash": "2277583865704861984",
           "deps": [
             "npm:@eslint/js@10.0.1",
-            "npm:@types/node@24.13.1",
             "npm:@types/react@19.2.17",
             "npm:@types/react-dom@19.2.3",
             "npm:@vitejs/plugin-react@6.0.2",
@@ -1615,107 +495,522 @@
             "npm:eslint-plugin-react-refresh@0.5.2",
             "npm:globals@17.6.0",
             "npm:postcss-prefix-selector@2.1.1",
-            "npm:typescript@6.0.3",
-            "npm:typescript-eslint@8.60.1",
             "npm:vite",
             "npm:@module-federation/vite@1.16.11",
             "@myorg/shared",
-            "npm:lucide-react@1.17.0",
+            "npm:axios@1.17.0",
+            "npm:react",
+            "npm:react-dom",
+            "npm:react-router-dom@7.17.0",
+            "npm:serve@14.2.6"
+          ]
+        },
+        {
+          "file": "federations/employee_mf/postcss.config.cjs",
+          "hash": "15213021400091478798"
+        },
+        {
+          "file": "federations/employee_mf/public/favicon.svg",
+          "hash": "9681363740239943431"
+        },
+        {
+          "file": "federations/employee_mf/public/icons.svg",
+          "hash": "4514104262053905079"
+        },
+        {
+          "file": "federations/employee_mf/src/App.jsx",
+          "hash": "10099266827524298860"
+        },
+        {
+          "file": "federations/employee_mf/src/api/authApi.js",
+          "hash": "15041181018855922386"
+        },
+        {
+          "file": "federations/employee_mf/src/api/employeeApi.js",
+          "hash": "1884473290366134598"
+        },
+        {
+          "file": "federations/employee_mf/src/components/EmployeeModal.jsx",
+          "hash": "1103279335031805377"
+        },
+        {
+          "file": "federations/employee_mf/src/components/EmployeeTable.jsx",
+          "hash": "4413835557828714681"
+        },
+        {
+          "file": "federations/employee_mf/src/components/ErrorBoundary.jsx",
+          "hash": "9194978628224776206"
+        },
+        {
+          "file": "federations/employee_mf/src/components/Loader.jsx",
+          "hash": "1362140797850457328"
+        },
+        {
+          "file": "federations/employee_mf/src/components/Navbar.jsx",
+          "hash": "17305157219370975719"
+        },
+        {
+          "file": "federations/employee_mf/src/index.css",
+          "hash": "5073595285058188643"
+        },
+        {
+          "file": "federations/employee_mf/src/main.jsx",
+          "hash": "3280702112876871215"
+        },
+        {
+          "file": "federations/employee_mf/src/pages/Dashboard.jsx",
+          "hash": "17881846741095867088"
+        },
+        {
+          "file": "federations/employee_mf/src/services/authService.js",
+          "hash": "13670128855614699489"
+        },
+        {
+          "file": "federations/employee_mf/src/services/employeeService.js",
+          "hash": "15808979201985703249"
+        },
+        {
+          "file": "federations/employee_mf/src/styles/dashboard.css",
+          "hash": "1094764903551144905"
+        },
+        {
+          "file": "federations/employee_mf/src/styles/global.css",
+          "hash": "9836544797750588180"
+        },
+        {
+          "file": "federations/employee_mf/src/styles/loader.css",
+          "hash": "8562031719824276649"
+        },
+        {
+          "file": "federations/employee_mf/src/styles/modal.css",
+          "hash": "7411172367761625541"
+        },
+        {
+          "file": "federations/employee_mf/src/styles/navbar.css",
+          "hash": "5899773217793001769"
+        },
+        {
+          "file": "federations/employee_mf/src/styles/table.css",
+          "hash": "14986908694317094671"
+        },
+        {
+          "file": "federations/employee_mf/tsconfig.json",
+          "hash": "11262067277626434094"
+        },
+        {
+          "file": "federations/employee_mf/vite.config.js",
+          "hash": "17807746082081244707"
+        }
+      ],
+      "host-app": [
+        {
+          "file": "host-app/.dockerignore",
+          "hash": "3435765899640022047"
+        },
+        {
+          "file": "host-app/.env.development",
+          "hash": "18417518097886632745"
+        },
+        {
+          "file": "host-app/.env.production",
+          "hash": "13596556925529930331"
+        },
+        {
+          "file": "host-app/.gitignore",
+          "hash": "987422939859577920"
+        },
+        {
+          "file": "host-app/Dockerfile",
+          "hash": "1023221073002824763"
+        },
+        {
+          "file": "host-app/README.md",
+          "hash": "17863574257080178437"
+        },
+        {
+          "file": "host-app/eslint.config.js",
+          "hash": "3232099070610865588"
+        },
+        {
+          "file": "host-app/index.html",
+          "hash": "226639123318109396"
+        },
+        {
+          "file": "host-app/lint.txt",
+          "hash": "2567743717027597067"
+        },
+        {
+          "file": "host-app/nginx.conf",
+          "hash": "11279080501277044795"
+        },
+        {
+          "file": "host-app/package-lock.json",
+          "hash": "17747270086218762473"
+        },
+        {
+          "file": "host-app/package.json",
+          "hash": "10531192436924614654",
+          "deps": [
+            "npm:@eslint/js@10.0.1",
+            "npm:@testing-library/jest-dom",
+            "npm:@testing-library/react",
+            "npm:@types/react@19.2.17",
+            "npm:@types/react-dom@19.2.3",
+            "npm:@vitejs/plugin-react@6.0.2",
+            "npm:eslint@10.4.1",
+            "npm:eslint-plugin-react-hooks@7.1.1",
+            "npm:eslint-plugin-react-refresh@0.5.2",
+            "npm:globals@17.6.0",
+            "npm:jsdom",
+            "npm:vite",
+            "npm:vitest",
+            "npm:@module-federation/runtime@2.6.0",
+            "npm:@module-federation/vite@1.16.11",
+            "npm:axios@1.17.0",
             "npm:react",
             "npm:react-dom",
             "npm:react-router-dom@7.17.0"
           ]
         },
         {
-          "file": "federations/helpdesk_mf/postcss.config.cjs",
-          "hash": "4301358289645922677"
+          "file": "host-app/production",
+          "hash": "1443614244227599495"
         },
         {
-          "file": "federations/helpdesk_mf/public/_headers",
-          "hash": "12701643038800466657"
-        },
-        {
-          "file": "federations/helpdesk_mf/public/_redirects",
+          "file": "host-app/public/_redirects",
           "hash": "1043623441615875955"
         },
         {
-          "file": "federations/helpdesk_mf/public/favicon.svg",
+          "file": "host-app/public/favicon.svg",
           "hash": "9681363740239943431"
         },
         {
-          "file": "federations/helpdesk_mf/public/icons.svg",
+          "file": "host-app/public/icons.svg",
           "hash": "4514104262053905079"
         },
         {
-          "file": "federations/helpdesk_mf/src/App.css",
-          "hash": "11604919666914838213"
+          "file": "host-app/src/App.jsx",
+          "hash": "2529646663786314210"
         },
         {
-          "file": "federations/helpdesk_mf/src/App.jsx",
-          "hash": "10561366747565075776"
+          "file": "host-app/src/App.test.jsx",
+          "hash": "5766054099724627649"
         },
         {
-          "file": "federations/helpdesk_mf/src/assets/hero.png",
-          "hash": "8887776959365123467"
+          "file": "host-app/src/components/AccessGuard.jsx",
+          "hash": "3885833269428317090"
         },
         {
-          "file": "federations/helpdesk_mf/src/assets/react.svg",
-          "hash": "16069471864800376455"
+          "file": "host-app/src/components/Navbar.css",
+          "hash": "4547523151676802636"
         },
         {
-          "file": "federations/helpdesk_mf/src/assets/vite.svg",
-          "hash": "5648276544205334114"
+          "file": "host-app/src/components/Navbar.jsx",
+          "hash": "14660415271889196199"
         },
         {
-          "file": "federations/helpdesk_mf/src/components/Shell.jsx",
-          "hash": "3579351855418081247"
+          "file": "host-app/src/components/ProtectedRoute.jsx",
+          "hash": "9048549038773250237"
         },
         {
-          "file": "federations/helpdesk_mf/src/index.css",
-          "hash": "3601234584185095134"
+          "file": "host-app/src/components/Sidebar.css",
+          "hash": "7394517475529529148"
         },
         {
-          "file": "federations/helpdesk_mf/src/main.jsx",
-          "hash": "17758367179035892549"
+          "file": "host-app/src/components/Sidebar.jsx",
+          "hash": "4924760665856963564"
         },
         {
-          "file": "federations/helpdesk_mf/src/pages/CreateTicket.jsx",
-          "hash": "3088528029177914242"
+          "file": "host-app/src/config/api.js",
+          "hash": "4264517979513929904"
         },
         {
-          "file": "federations/helpdesk_mf/src/pages/Dashboard.jsx",
-          "hash": "2577614805502802931"
+          "file": "host-app/src/index.css",
+          "hash": "17100873079183230330"
         },
         {
-          "file": "federations/helpdesk_mf/src/pages/TicketDetails.jsx",
-          "hash": "4806451787859486460"
+          "file": "host-app/src/layouts/MainLayout.css",
+          "hash": "5309401484569148503"
         },
         {
-          "file": "federations/helpdesk_mf/src/pages/TicketList.jsx",
-          "hash": "12921617412445791805"
+          "file": "host-app/src/layouts/MainLayout.jsx",
+          "hash": "5004716818143171683"
         },
         {
-          "file": "federations/helpdesk_mf/src/pages/UpdateTicket.jsx",
-          "hash": "16837229660936715397"
+          "file": "host-app/src/main.jsx",
+          "hash": "3280702112876871215"
         },
         {
-          "file": "federations/helpdesk_mf/src/services/api.js",
-          "hash": "12268081348545683150"
+          "file": "host-app/src/pages/Admin/ModuleMaintenance.css",
+          "hash": "859448821223692937"
         },
         {
-          "file": "federations/helpdesk_mf/src/services/authService.js",
-          "hash": "14888683020024605146"
+          "file": "host-app/src/pages/Admin/ModuleMaintenance.jsx",
+          "hash": "13863868733398036479"
         },
         {
-          "file": "federations/helpdesk_mf/tsconfig.json",
-          "hash": "11262067277626434094"
+          "file": "host-app/src/pages/Admin/PermissionManagement.css",
+          "hash": "1562249926930802309"
         },
         {
-          "file": "federations/helpdesk_mf/vite.config.js",
-          "hash": "18229444981945733075"
+          "file": "host-app/src/pages/Admin/PermissionManagement.jsx",
+          "hash": "17986085825665479167"
+        },
+        {
+          "file": "host-app/src/pages/Dashboard.css",
+          "hash": "6322703332487444079"
+        },
+        {
+          "file": "host-app/src/pages/Dashboard.jsx",
+          "hash": "17554521177979605006"
+        },
+        {
+          "file": "host-app/src/pages/Login.css",
+          "hash": "16445845225032284846"
+        },
+        {
+          "file": "host-app/src/pages/Login.jsx",
+          "hash": "1643438085961316409"
+        },
+        {
+          "file": "host-app/src/routes/AppRoutes.jsx",
+          "hash": "7624862334471812305"
+        },
+        {
+          "file": "host-app/src/services/moduleRegistry.js",
+          "hash": "5002866306962588121"
+        },
+        {
+          "file": "host-app/src/setupTests.js",
+          "hash": "4941352530169676329"
+        },
+        {
+          "file": "host-app/src/utils/auth.js",
+          "hash": "15721931395304795551"
+        },
+        {
+          "file": "host-app/src/utils/federationLoader.js",
+          "hash": "5421634275877302296"
+        },
+        {
+          "file": "host-app/vite.config.js",
+          "hash": "10621568595348939227"
         }
       ],
-      "asset-mf": [
+      "@myorg/shared": [
+        {
+          "file": "shared/package.json",
+          "hash": "4945769106053111664",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "shared/src/index.jsx",
+          "hash": "5469002196032526704"
+        }
+      ],
+      "Inventory.API": [
+        {
+          "file": "backend/InventoryService/Inventory.API/.gitignore",
+          "hash": "15062976645021654071"
+        },
+        {
+          "file": "backend/InventoryService/Inventory.API/Containerfile",
+          "hash": "1428782363176720325"
+        },
+        {
+          "file": "backend/InventoryService/Inventory.API/Controllers/ProductController.cs",
+          "hash": "14920308556425941089"
+        },
+        {
+          "file": "backend/InventoryService/Inventory.API/DTOs/CreateProductDto.cs",
+          "hash": "16526022273178714416"
+        },
+        {
+          "file": "backend/InventoryService/Inventory.API/DTOs/ProductResponseDto.cs",
+          "hash": "6918609225208996586"
+        },
+        {
+          "file": "backend/InventoryService/Inventory.API/DTOs/UpdateProductDto.cs",
+          "hash": "6590265076221342345"
+        },
+        {
+          "file": "backend/InventoryService/Inventory.API/Data/ApplicationDbContext.cs",
+          "hash": "13022624667875645816"
+        },
+        {
+          "file": "backend/InventoryService/Inventory.API/Entities/Product.cs",
+          "hash": "863992135008330087"
+        },
+        {
+          "file": "backend/InventoryService/Inventory.API/Inventory.API.csproj",
+          "hash": "13910011505548665820"
+        },
+        {
+          "file": "backend/InventoryService/Inventory.API/Inventory.API.http",
+          "hash": "8066743361111251498"
+        },
+        {
+          "file": "backend/InventoryService/Inventory.API/Middleware/ExceptionMiddleware.cs",
+          "hash": "18083728981977049464"
+        },
+        {
+          "file": "backend/InventoryService/Inventory.API/Migrations/20260608090215_InitialCreate.Designer.cs",
+          "hash": "3215247629825687113"
+        },
+        {
+          "file": "backend/InventoryService/Inventory.API/Migrations/20260608090215_InitialCreate.cs",
+          "hash": "10607741508334673417"
+        },
+        {
+          "file": "backend/InventoryService/Inventory.API/Migrations/20260617110707_AutoIncrementGuid.Designer.cs",
+          "hash": "1232353021972783017"
+        },
+        {
+          "file": "backend/InventoryService/Inventory.API/Migrations/20260617110707_AutoIncrementGuid.cs",
+          "hash": "6404366033711937149"
+        },
+        {
+          "file": "backend/InventoryService/Inventory.API/Migrations/ApplicationDbContextModelSnapshot.cs",
+          "hash": "11036546643085887076"
+        },
+        {
+          "file": "backend/InventoryService/Inventory.API/Program.cs",
+          "hash": "15800930806832319045"
+        },
+        {
+          "file": "backend/InventoryService/Inventory.API/Properties/launchSettings.json",
+          "hash": "12884490104541717585"
+        },
+        {
+          "file": "backend/InventoryService/Inventory.API/Repositories/IProductRepository.cs",
+          "hash": "8881001019402094936"
+        },
+        {
+          "file": "backend/InventoryService/Inventory.API/Repositories/ProductRepository.cs",
+          "hash": "16300234435727347846"
+        },
+        {
+          "file": "backend/InventoryService/Inventory.API/Services/IProductService.cs",
+          "hash": "8784453077727162158"
+        },
+        {
+          "file": "backend/InventoryService/Inventory.API/Services/ProductService.cs",
+          "hash": "10130587393482199798"
+        },
+        {
+          "file": "backend/InventoryService/Inventory.API/appsettings.Development.json",
+          "hash": "3339958947771738801"
+        },
+        {
+          "file": "backend/InventoryService/Inventory.API/appsettings.Production.json",
+          "hash": "10894832727268911112"
+        },
+        {
+          "file": "backend/InventoryService/Inventory.API/appsettings.json",
+          "hash": "13260192324236200952"
+        }
+      ],
+      "AuthService": [
+        {
+          "file": "backend/AuthService/.gitignore",
+          "hash": "15062976645021654071"
+        },
+        {
+          "file": "backend/AuthService/AuthService.csproj",
+          "hash": "3622994043514770051"
+        },
+        {
+          "file": "backend/AuthService/AuthService.http",
+          "hash": "398679056387208696"
+        },
+        {
+          "file": "backend/AuthService/Controllers/AccessController.cs",
+          "hash": "6292128743553204440"
+        },
+        {
+          "file": "backend/AuthService/Controllers/AuditLogsController.cs",
+          "hash": "16237473128041604827"
+        },
+        {
+          "file": "backend/AuthService/Controllers/AuthController.cs",
+          "hash": "13910405941989461768"
+        },
+        {
+          "file": "backend/AuthService/Controllers/PermissionsController.cs",
+          "hash": "13473038214347805483"
+        },
+        {
+          "file": "backend/AuthService/Controllers/RolesController.cs",
+          "hash": "14772894452667183753"
+        },
+        {
+          "file": "backend/AuthService/Controllers/UsersController.cs",
+          "hash": "5608143820363537658"
+        },
+        {
+          "file": "backend/AuthService/Data/ApplicationDbContext.cs",
+          "hash": "13719910211396026482"
+        },
+        {
+          "file": "backend/AuthService/Dockerfile",
+          "hash": "2711833243350683499"
+        },
+        {
+          "file": "backend/AuthService/Migrations/20260626082801_InitialUpdate.Designer.cs",
+          "hash": "10486096385929204387"
+        },
+        {
+          "file": "backend/AuthService/Migrations/20260626082801_InitialUpdate.cs",
+          "hash": "16502711911996001026"
+        },
+        {
+          "file": "backend/AuthService/Migrations/ApplicationDbContextModelSnapshot.cs",
+          "hash": "15585097869076054069"
+        },
+        {
+          "file": "backend/AuthService/Models/AuditLog.cs",
+          "hash": "13925483184011983893"
+        },
+        {
+          "file": "backend/AuthService/Models/Permission.cs",
+          "hash": "13108292927322169672"
+        },
+        {
+          "file": "backend/AuthService/Models/Role.cs",
+          "hash": "1142204840444010066"
+        },
+        {
+          "file": "backend/AuthService/Models/RolePermission.cs",
+          "hash": "6949992650267848821"
+        },
+        {
+          "file": "backend/AuthService/Models/User.cs",
+          "hash": "365101091928760001"
+        },
+        {
+          "file": "backend/AuthService/Models/UserRole.cs",
+          "hash": "5106140568123183285"
+        },
+        {
+          "file": "backend/AuthService/Program.cs",
+          "hash": "5979197061568872574"
+        },
+        {
+          "file": "backend/AuthService/Properties/launchSettings.json",
+          "hash": "4675396910812422394"
+        },
+        {
+          "file": "backend/AuthService/appsettings.Development.json",
+          "hash": "3339958947771738801"
+        },
+        {
+          "file": "backend/AuthService/appsettings.json",
+          "hash": "3408174371905421414"
+        }
+      ],
+      "asset-management-frontend": [
         {
           "file": "federations/asset_mf/.dockerignore",
           "hash": "13486173271082641628"
@@ -1746,7 +1041,7 @@
         },
         {
           "file": "federations/asset_mf/package.json",
-          "hash": "14861814994275915984",
+          "hash": "10928230443226545556",
           "deps": [
             "npm:@vitejs/plugin-react@4.7.0",
             "npm:concurrently@8.2.2",
@@ -1848,69 +1143,183 @@
           "hash": "10773387906203200757"
         }
       ],
-      "@myorg/shared": [
+      "backend-assetservice": [
         {
-          "file": "shared/package.json",
-          "hash": "4945769106053111664",
-          "deps": [
-            "npm:react"
-          ]
+          "file": "backend/AssetService/.gitignore",
+          "hash": "15062976645021654071"
         },
         {
-          "file": "shared/src/index.jsx",
-          "hash": "13931408105857465246"
+          "file": "backend/AssetService/AssetManagementSystem.Api.csproj",
+          "hash": "915687327660225964"
+        },
+        {
+          "file": "backend/AssetService/Controllers/AssetsController.cs",
+          "hash": "9370054951588642671"
+        },
+        {
+          "file": "backend/AssetService/Controllers/AssignmentsController.cs",
+          "hash": "3624282922288533536"
+        },
+        {
+          "file": "backend/AssetService/Controllers/DashboardController.cs",
+          "hash": "3697879445142935956"
+        },
+        {
+          "file": "backend/AssetService/DTOs/AssetDtos.cs",
+          "hash": "15161355263537542797"
+        },
+        {
+          "file": "backend/AssetService/DTOs/AssignmentDtos.cs",
+          "hash": "16150866423942969297"
+        },
+        {
+          "file": "backend/AssetService/DTOs/DashboardDto.cs",
+          "hash": "18302119847454430574"
+        },
+        {
+          "file": "backend/AssetService/DTOs/PagedResult.cs",
+          "hash": "2602521982779904904"
+        },
+        {
+          "file": "backend/AssetService/Data/AppDbContext.cs",
+          "hash": "999582985213285974"
+        },
+        {
+          "file": "backend/AssetService/Dockerfile",
+          "hash": "3865510449083399582"
+        },
+        {
+          "file": "backend/AssetService/Middleware/PermissionMiddleware.cs",
+          "hash": "5934381318656367742"
+        },
+        {
+          "file": "backend/AssetService/Migrations/20260608082140_InitialCreate.Designer.cs",
+          "hash": "1416347378453168596"
+        },
+        {
+          "file": "backend/AssetService/Migrations/20260608082140_InitialCreate.cs",
+          "hash": "17115558931750981603"
+        },
+        {
+          "file": "backend/AssetService/Migrations/20260617110644_AutoIncrementGuid.Designer.cs",
+          "hash": "3568983601167476954"
+        },
+        {
+          "file": "backend/AssetService/Migrations/20260617110644_AutoIncrementGuid.cs",
+          "hash": "4514124256106423289"
+        },
+        {
+          "file": "backend/AssetService/Migrations/AppDbContextModelSnapshot.cs",
+          "hash": "7781671252187501058"
+        },
+        {
+          "file": "backend/AssetService/Models/Asset.cs",
+          "hash": "9805798868991455974"
+        },
+        {
+          "file": "backend/AssetService/Models/AssetStatus.cs",
+          "hash": "8795481785643738094"
+        },
+        {
+          "file": "backend/AssetService/Models/Assignment.cs",
+          "hash": "5470252721991589811"
+        },
+        {
+          "file": "backend/AssetService/Program.cs",
+          "hash": "3562763646116109230"
+        },
+        {
+          "file": "backend/AssetService/Properties/launchSettings.json",
+          "hash": "15747562607092843943"
+        },
+        {
+          "file": "backend/AssetService/Services/AssetService.cs",
+          "hash": "9489052544710911896"
+        },
+        {
+          "file": "backend/AssetService/Services/AssignmentService.cs",
+          "hash": "8127808960254098786"
+        },
+        {
+          "file": "backend/AssetService/Services/DashboardService.cs",
+          "hash": "9290374082683597233"
+        },
+        {
+          "file": "backend/AssetService/Services/IAssetService.cs",
+          "hash": "12039513851535870922"
+        },
+        {
+          "file": "backend/AssetService/Services/IAssignmentService.cs",
+          "hash": "6867854121768419393"
+        },
+        {
+          "file": "backend/AssetService/Services/IDashboardService.cs",
+          "hash": "6298796870403885487"
+        },
+        {
+          "file": "backend/AssetService/appsettings.Development.json",
+          "hash": "7226380718778773079"
+        },
+        {
+          "file": "backend/AssetService/appsettings.json",
+          "hash": "9254917179491487414"
+        },
+        {
+          "file": "backend/AssetService/runtimeconfig.template.json",
+          "hash": "3580167024625123276"
         }
       ],
-      "employee-mf": [
+      "helpdesk-mf": [
         {
-          "file": "federations/employee_mf/.dockerignore",
+          "file": "federations/helpdesk_mf/.dockerignore",
           "hash": "13486173271082641628"
         },
         {
-          "file": "federations/employee_mf/.env.development",
-          "hash": "14313221877797189253"
+          "file": "federations/helpdesk_mf/.env.development",
+          "hash": "5570965236227569831"
         },
         {
-          "file": "federations/employee_mf/.env.production",
-          "hash": "3810007431602835466"
+          "file": "federations/helpdesk_mf/.env.production",
+          "hash": "6685876415680776984"
         },
         {
-          "file": "federations/employee_mf/.gitignore",
+          "file": "federations/helpdesk_mf/.gitignore",
           "hash": "987422939859577920"
         },
         {
-          "file": "federations/employee_mf/.mf/diagnostics/latest.json",
-          "hash": "2197221193412349365"
+          "file": "federations/helpdesk_mf/Dockerfile",
+          "hash": "6677353877304776144"
         },
         {
-          "file": "federations/employee_mf/Dockerfile",
-          "hash": "6838539257582298554"
+          "file": "federations/helpdesk_mf/README.md",
+          "hash": "12183045292125642857"
         },
         {
-          "file": "federations/employee_mf/README.md",
-          "hash": "17863574257080178437"
+          "file": "federations/helpdesk_mf/eslint.config.js",
+          "hash": "18138883210913304672"
         },
         {
-          "file": "federations/employee_mf/eslint.config.js",
-          "hash": "3232099070610865588"
+          "file": "federations/helpdesk_mf/index.html",
+          "hash": "2124853318265600140"
         },
         {
-          "file": "federations/employee_mf/index.html",
-          "hash": "12659617745515635193"
+          "file": "federations/helpdesk_mf/lint.txt",
+          "hash": "6495911829499504567"
         },
         {
-          "file": "federations/employee_mf/nginx.conf",
+          "file": "federations/helpdesk_mf/nginx.conf",
           "hash": "11279080501277044795"
         },
         {
-          "file": "federations/employee_mf/package-lock.json",
-          "hash": "4319565812356389816"
+          "file": "federations/helpdesk_mf/package-lock.json",
+          "hash": "13931780538289985892"
         },
         {
-          "file": "federations/employee_mf/package.json",
-          "hash": "2277583865704861984",
+          "file": "federations/helpdesk_mf/package.json",
+          "hash": "3507439976852755735",
           "deps": [
             "npm:@eslint/js@10.0.1",
+            "npm:@types/node@24.13.1",
             "npm:@types/react@19.2.17",
             "npm:@types/react-dom@19.2.3",
             "npm:@vitejs/plugin-react@6.0.2",
@@ -1920,305 +1329,237 @@
             "npm:eslint-plugin-react-refresh@0.5.2",
             "npm:globals@17.6.0",
             "npm:postcss-prefix-selector@2.1.1",
+            "npm:typescript@6.0.3",
+            "npm:typescript-eslint@8.60.1",
             "npm:vite",
             "npm:@module-federation/vite@1.16.11",
             "@myorg/shared",
-            "npm:axios@1.17.0",
-            "npm:react",
-            "npm:react-dom",
-            "npm:react-router-dom@7.17.0",
-            "npm:serve@14.2.6"
-          ]
-        },
-        {
-          "file": "federations/employee_mf/postcss.config.cjs",
-          "hash": "15213021400091478798"
-        },
-        {
-          "file": "federations/employee_mf/public/favicon.svg",
-          "hash": "9681363740239943431"
-        },
-        {
-          "file": "federations/employee_mf/public/icons.svg",
-          "hash": "4514104262053905079"
-        },
-        {
-          "file": "federations/employee_mf/src/App.jsx",
-          "hash": "10099266827524298860"
-        },
-        {
-          "file": "federations/employee_mf/src/api/authApi.js",
-          "hash": "15041181018855922386"
-        },
-        {
-          "file": "federations/employee_mf/src/api/employeeApi.js",
-          "hash": "1884473290366134598"
-        },
-        {
-          "file": "federations/employee_mf/src/components/EmployeeModal.jsx",
-          "hash": "13264695589042102908"
-        },
-        {
-          "file": "federations/employee_mf/src/components/EmployeeTable.jsx",
-          "hash": "4413835557828714681"
-        },
-        {
-          "file": "federations/employee_mf/src/components/ErrorBoundary.jsx",
-          "hash": "9194978628224776206"
-        },
-        {
-          "file": "federations/employee_mf/src/components/Loader.jsx",
-          "hash": "1362140797850457328"
-        },
-        {
-          "file": "federations/employee_mf/src/components/Navbar.jsx",
-          "hash": "17305157219370975719"
-        },
-        {
-          "file": "federations/employee_mf/src/index.css",
-          "hash": "5073595285058188643"
-        },
-        {
-          "file": "federations/employee_mf/src/main.jsx",
-          "hash": "3280702112876871215"
-        },
-        {
-          "file": "federations/employee_mf/src/pages/Dashboard.jsx",
-          "hash": "3899223550741552220"
-        },
-        {
-          "file": "federations/employee_mf/src/services/authService.js",
-          "hash": "12891597015157989350"
-        },
-        {
-          "file": "federations/employee_mf/src/services/employeeService.js",
-          "hash": "15808979201985703249"
-        },
-        {
-          "file": "federations/employee_mf/src/styles/dashboard.css",
-          "hash": "1094764903551144905"
-        },
-        {
-          "file": "federations/employee_mf/src/styles/global.css",
-          "hash": "9836544797750588180"
-        },
-        {
-          "file": "federations/employee_mf/src/styles/loader.css",
-          "hash": "8562031719824276649"
-        },
-        {
-          "file": "federations/employee_mf/src/styles/modal.css",
-          "hash": "7411172367761625541"
-        },
-        {
-          "file": "federations/employee_mf/src/styles/navbar.css",
-          "hash": "5899773217793001769"
-        },
-        {
-          "file": "federations/employee_mf/src/styles/table.css",
-          "hash": "14986908694317094671"
-        },
-        {
-          "file": "federations/employee_mf/tsconfig.json",
-          "hash": "11262067277626434094"
-        },
-        {
-          "file": "federations/employee_mf/vite.config.js",
-          "hash": "8730631048662478641"
-        }
-      ],
-      "host-app": [
-        {
-          "file": "host-app/.dockerignore",
-          "hash": "3435765899640022047"
-        },
-        {
-          "file": "host-app/.env.development",
-          "hash": "18417518097886632745"
-        },
-        {
-          "file": "host-app/.env.production",
-          "hash": "13596556925529930331"
-        },
-        {
-          "file": "host-app/.gitignore",
-          "hash": "987422939859577920"
-        },
-        {
-          "file": "host-app/Dockerfile",
-          "hash": "1023221073002824763"
-        },
-        {
-          "file": "host-app/README.md",
-          "hash": "17863574257080178437"
-        },
-        {
-          "file": "host-app/eslint.config.js",
-          "hash": "3232099070610865588"
-        },
-        {
-          "file": "host-app/index.html",
-          "hash": "226639123318109396"
-        },
-        {
-          "file": "host-app/nginx.conf",
-          "hash": "11279080501277044795"
-        },
-        {
-          "file": "host-app/package-lock.json",
-          "hash": "17747270086218762473"
-        },
-        {
-          "file": "host-app/package.json",
-          "hash": "10531192436924614654",
-          "deps": [
-            "npm:@eslint/js@10.0.1",
-            "npm:@testing-library/jest-dom",
-            "npm:@testing-library/react",
-            "npm:@types/react@19.2.17",
-            "npm:@types/react-dom@19.2.3",
-            "npm:@vitejs/plugin-react@6.0.2",
-            "npm:eslint@10.4.1",
-            "npm:eslint-plugin-react-hooks@7.1.1",
-            "npm:eslint-plugin-react-refresh@0.5.2",
-            "npm:globals@17.6.0",
-            "npm:jsdom",
-            "npm:vite",
-            "npm:vitest",
-            "npm:@module-federation/runtime@2.6.0",
-            "npm:@module-federation/vite@1.16.11",
-            "npm:axios@1.17.0",
+            "npm:lucide-react@1.17.0",
             "npm:react",
             "npm:react-dom",
             "npm:react-router-dom@7.17.0"
           ]
         },
         {
-          "file": "host-app/production",
-          "hash": "1443614244227599495"
+          "file": "federations/helpdesk_mf/postcss.config.cjs",
+          "hash": "4301358289645922677"
         },
         {
-          "file": "host-app/public/_redirects",
+          "file": "federations/helpdesk_mf/public/_headers",
+          "hash": "12701643038800466657"
+        },
+        {
+          "file": "federations/helpdesk_mf/public/_redirects",
           "hash": "1043623441615875955"
         },
         {
-          "file": "host-app/public/favicon.svg",
+          "file": "federations/helpdesk_mf/public/favicon.svg",
           "hash": "9681363740239943431"
         },
         {
-          "file": "host-app/public/icons.svg",
+          "file": "federations/helpdesk_mf/public/icons.svg",
           "hash": "4514104262053905079"
         },
         {
-          "file": "host-app/src/App.jsx",
-          "hash": "2529646663786314210"
+          "file": "federations/helpdesk_mf/src/App.css",
+          "hash": "11604919666914838213"
         },
         {
-          "file": "host-app/src/App.test.jsx",
-          "hash": "6583839568972466427"
+          "file": "federations/helpdesk_mf/src/App.jsx",
+          "hash": "10561366747565075776"
         },
         {
-          "file": "host-app/src/components/AccessGuard.jsx",
-          "hash": "2034907385016689117"
+          "file": "federations/helpdesk_mf/src/assets/hero.png",
+          "hash": "8887776959365123467"
         },
         {
-          "file": "host-app/src/components/Navbar.css",
-          "hash": "4547523151676802636"
+          "file": "federations/helpdesk_mf/src/assets/react.svg",
+          "hash": "16069471864800376455"
         },
         {
-          "file": "host-app/src/components/Navbar.jsx",
-          "hash": "14660415271889196199"
+          "file": "federations/helpdesk_mf/src/assets/vite.svg",
+          "hash": "5648276544205334114"
         },
         {
-          "file": "host-app/src/components/ProtectedRoute.jsx",
-          "hash": "9048549038773250237"
+          "file": "federations/helpdesk_mf/src/components/Shell.jsx",
+          "hash": "3579351855418081247"
         },
         {
-          "file": "host-app/src/components/Sidebar.css",
-          "hash": "7394517475529529148"
+          "file": "federations/helpdesk_mf/src/index.css",
+          "hash": "3601234584185095134"
         },
         {
-          "file": "host-app/src/components/Sidebar.jsx",
-          "hash": "4924760665856963564"
+          "file": "federations/helpdesk_mf/src/main.jsx",
+          "hash": "17758367179035892549"
         },
         {
-          "file": "host-app/src/config/api.js",
-          "hash": "4264517979513929904"
+          "file": "federations/helpdesk_mf/src/pages/CreateTicket.jsx",
+          "hash": "3088528029177914242"
         },
         {
-          "file": "host-app/src/index.css",
-          "hash": "17100873079183230330"
+          "file": "federations/helpdesk_mf/src/pages/Dashboard.jsx",
+          "hash": "2577614805502802931"
         },
         {
-          "file": "host-app/src/layouts/MainLayout.css",
-          "hash": "5309401484569148503"
+          "file": "federations/helpdesk_mf/src/pages/TicketDetails.jsx",
+          "hash": "4806451787859486460"
         },
         {
-          "file": "host-app/src/layouts/MainLayout.jsx",
-          "hash": "4356822372473898707"
+          "file": "federations/helpdesk_mf/src/pages/TicketList.jsx",
+          "hash": "10931306544701513803"
         },
         {
-          "file": "host-app/src/main.jsx",
-          "hash": "3280702112876871215"
+          "file": "federations/helpdesk_mf/src/pages/UpdateTicket.jsx",
+          "hash": "16837229660936715397"
         },
         {
-          "file": "host-app/src/pages/Admin/ModuleMaintenance.css",
-          "hash": "859448821223692937"
+          "file": "federations/helpdesk_mf/src/services/api.js",
+          "hash": "12268081348545683150"
         },
         {
-          "file": "host-app/src/pages/Admin/ModuleMaintenance.jsx",
-          "hash": "16237490276540574063"
+          "file": "federations/helpdesk_mf/src/services/authService.js",
+          "hash": "14888683020024605146"
         },
         {
-          "file": "host-app/src/pages/Admin/PermissionManagement.css",
-          "hash": "1562249926930802309"
+          "file": "federations/helpdesk_mf/tsconfig.json",
+          "hash": "11262067277626434094"
         },
         {
-          "file": "host-app/src/pages/Admin/PermissionManagement.jsx",
-          "hash": "6767828477367086975"
+          "file": "federations/helpdesk_mf/vite.config.js",
+          "hash": "18229444981945733075"
+        }
+      ],
+      "backend-helpdeskservice": [
+        {
+          "file": "backend/HelpDeskService/.gitignore",
+          "hash": "15062976645021654071"
         },
         {
-          "file": "host-app/src/pages/Dashboard.css",
-          "hash": "6322703332487444079"
+          "file": "backend/HelpDeskService/Containerfile",
+          "hash": "714170298125747853"
         },
         {
-          "file": "host-app/src/pages/Dashboard.jsx",
-          "hash": "12552954111035493269"
+          "file": "backend/HelpDeskService/Controllers/AuthController.cs",
+          "hash": "12867973218061662860"
         },
         {
-          "file": "host-app/src/pages/Login.css",
-          "hash": "16445845225032284846"
+          "file": "backend/HelpDeskService/Controllers/TicketController.cs",
+          "hash": "9226275093213229950"
         },
         {
-          "file": "host-app/src/pages/Login.jsx",
-          "hash": "13789576750840385408"
+          "file": "backend/HelpDeskService/DTOs/AssignTicketDto.cs",
+          "hash": "14048584483489539999"
         },
         {
-          "file": "host-app/src/routes/AppRoutes.jsx",
-          "hash": "7624862334471812305"
+          "file": "backend/HelpDeskService/DTOs/CreateCommentDto.cs",
+          "hash": "2790614756699311321"
         },
         {
-          "file": "host-app/src/services/moduleRegistry.js",
-          "hash": "5002866306962588121"
+          "file": "backend/HelpDeskService/DTOs/CreateTicketDto.cs",
+          "hash": "750609267944194244"
         },
         {
-          "file": "host-app/src/setupTests.js",
-          "hash": "4941352530169676329"
+          "file": "backend/HelpDeskService/DTOs/TicketCommentDto.cs",
+          "hash": "13009475142675898111"
         },
         {
-          "file": "host-app/src/utils/auth.js",
-          "hash": "15721931395304795551"
+          "file": "backend/HelpDeskService/DTOs/TicketDto.cs",
+          "hash": "18367897179003769444"
         },
         {
-          "file": "host-app/src/utils/federationLoader.js",
-          "hash": "5421634275877302296"
+          "file": "backend/HelpDeskService/DTOs/TicketHistoryDto.cs",
+          "hash": "8903716643268929315"
         },
         {
-          "file": "host-app/vite.config.js",
-          "hash": "17815746556981006640"
+          "file": "backend/HelpDeskService/DTOs/UpdateStatusDto.cs",
+          "hash": "3696372660444471282"
+        },
+        {
+          "file": "backend/HelpDeskService/DTOs/UpdateTicketDto.cs",
+          "hash": "3850946815765240760"
+        },
+        {
+          "file": "backend/HelpDeskService/Data/ApplicationDbContext.cs",
+          "hash": "9823009269744375239"
+        },
+        {
+          "file": "backend/HelpDeskService/Exceptions/NotFoundException.cs",
+          "hash": "7319081865650537900"
+        },
+        {
+          "file": "backend/HelpDeskService/Exceptions/ValidationException.cs",
+          "hash": "18048331840163374167"
+        },
+        {
+          "file": "backend/HelpDeskService/HelpdeskService.csproj",
+          "hash": "11380679402332610359"
+        },
+        {
+          "file": "backend/HelpDeskService/HelpdeskService.http",
+          "hash": "13703474122110002661"
+        },
+        {
+          "file": "backend/HelpDeskService/Middleware/ExceptionHandlingMiddleware.cs",
+          "hash": "15843870350652206361"
+        },
+        {
+          "file": "backend/HelpDeskService/Migrations/ApplicationDbContextModelSnapshot.cs",
+          "hash": "7016376761880171832"
+        },
+        {
+          "file": "backend/HelpDeskService/Models/Ticket.cs",
+          "hash": "5358863796390298765"
+        },
+        {
+          "file": "backend/HelpDeskService/Models/TicketComment.cs",
+          "hash": "107679761922999140"
+        },
+        {
+          "file": "backend/HelpDeskService/Models/TicketHistory.cs",
+          "hash": "14226677232792562200"
+        },
+        {
+          "file": "backend/HelpDeskService/Models/TicketPriority.cs",
+          "hash": "11948389467019272953"
+        },
+        {
+          "file": "backend/HelpDeskService/Models/TicketStatus.cs",
+          "hash": "16418153213907809527"
+        },
+        {
+          "file": "backend/HelpDeskService/Program.cs",
+          "hash": "661931825616691104"
+        },
+        {
+          "file": "backend/HelpDeskService/Properties/launchSettings.json",
+          "hash": "8376115677837164081"
+        },
+        {
+          "file": "backend/HelpDeskService/Repositories/ITicketRepository.cs",
+          "hash": "11473743042997661114"
+        },
+        {
+          "file": "backend/HelpDeskService/Repositories/TicketRepository.cs",
+          "hash": "3878432808329442505"
+        },
+        {
+          "file": "backend/HelpDeskService/Services/ITicketService.cs",
+          "hash": "14093724864275388718"
+        },
+        {
+          "file": "backend/HelpDeskService/Services/TicketService.cs",
+          "hash": "12187786203207344706"
+        },
+        {
+          "file": "backend/HelpDeskService/appsettings.Development.json",
+          "hash": "5016617951019195492"
+        },
+        {
+          "file": "backend/HelpDeskService/appsettings.json",
+          "hash": "3986926775718128271"
         }
       ]
     }
   },
-  "externalNodesHash": "9363115394309500743"
+  "externalNodesHash": "12631971832060324454"
 }

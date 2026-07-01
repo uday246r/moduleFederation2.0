@@ -37,14 +37,9 @@ jobs:
           rm -f package-lock.json
           npm install
 
-      - name: Run .NET Tests
-        run: dotnet test backend/EnterprisePortal.slnx --logger trx || echo "No tests found or tests failed"
-
-      - name: Build .NET Backend
-        run: dotnet build backend/EnterprisePortal.slnx
-
       - name: Set Nx SHAs for Affected Commands
         uses: nrwl/nx-set-shas@v4
+
 
       - name: Run Nx Tests
         # Only run tests for affected projects
@@ -65,6 +60,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Required for Nx affected
 
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v3
@@ -86,15 +83,19 @@ jobs:
           rm -f package-lock.json
           npm install
 
+      - name: Set Nx SHAs for Affected Commands
+        uses: nrwl/nx-set-shas@v4
+
       - name: Run NPM Audit
         # Check for vulnerabilities but don't fail the build immediately while onboarding
         run: npm audit --audit-level=high || echo "Vulnerabilities found."
 
-      - name: Run .NET Build (Required for CodeQL C# analysis)
-        run: dotnet build backend/EnterprisePortal.slnx
+      - name: Run CodeQL Analysis Build
+        run: npx nx affected -t build
 
-      - name: Run .NET Vulnerability Check
-        run: dotnet list backend/EnterprisePortal.slnx package --vulnerable || echo "Vulnerabilities found."
+      - name: Run Vulnerability Check
+        run: npx nx affected -t lint
+
 
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v3

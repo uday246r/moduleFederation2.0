@@ -35,7 +35,7 @@ public class AuthController : ControllerBase
 
     public IActionResult Login(User request)
     {
-        
+
         var user = _context.Users.FirstOrDefault(
             x =>
                 x.Email == request.Email
@@ -94,7 +94,7 @@ public class AuthController : ControllerBase
 
         var tokenStr = authHeader.Substring("Bearer ".Length).Trim();
         var handler = new JwtSecurityTokenHandler();
-        
+
         if (!handler.CanReadToken(tokenStr))
         {
             return Unauthorized();

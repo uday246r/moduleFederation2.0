@@ -1,18 +1,38 @@
 {
-  "federations/asset_mf": {
+  "backend/AssetService": {
     "root": [
-      "nx.json",
-      "nx/target-defaults"
+      "backend/AssetService/AssetManagementSystem.Api.csproj",
+      "@nx-dotnet/core"
+    ],
+    "name": [
+      "backend/AssetService/AssetManagementSystem.Api.csproj",
+      "@nx-dotnet/core"
+    ],
+    "tags": [
+      "backend/AssetService/AssetManagementSystem.Api.csproj",
+      "@nx-dotnet/core"
+    ],
+    "tags.nx-dotnet": [
+      "backend/AssetService/AssetManagementSystem.Api.csproj",
+      "@nx-dotnet/core"
     ],
     "targets": [
-      "nx.json",
-      "nx/target-defaults"
+      "backend/AssetService/AssetManagementSystem.Api.csproj",
+      "@nx-dotnet/core"
     ],
     "targets.build": [
-      "nx.json",
-      "nx/target-defaults"
+      "backend/AssetService/AssetManagementSystem.Api.csproj",
+      "@nx-dotnet/core"
     ],
-    "targets.build.dependsOn.0": [
+    "targets.build.executor": [
+      "backend/AssetService/AssetManagementSystem.Api.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.outputs": [
+      "backend/AssetService/AssetManagementSystem.Api.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.cache": [
       "nx.json",
       "nx/target-defaults"
     ],
@@ -20,21 +40,701 @@
       "nx.json",
       "nx/target-defaults"
     ],
-    "targets.build.inputs.0": [
+    "targets.build.options": [
+      "backend/AssetService/AssetManagementSystem.Api.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.configurations": [
+      "backend/AssetService/AssetManagementSystem.Api.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.options.configuration": [
+      "backend/AssetService/AssetManagementSystem.Api.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.options.noDependencies": [
+      "backend/AssetService/AssetManagementSystem.Api.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.configurations.production": [
+      "backend/AssetService/AssetManagementSystem.Api.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.configurations.production.configuration": [
+      "backend/AssetService/AssetManagementSystem.Api.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.lint": [
+      "backend/AssetService/AssetManagementSystem.Api.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.lint.executor": [
+      "backend/AssetService/AssetManagementSystem.Api.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.lint.cache": [
       "nx.json",
       "nx/target-defaults"
     ],
-    "targets.build.inputs.1": [
+    "targets.lint.inputs": [
       "nx.json",
       "nx/target-defaults"
+    ],
+    "targets.serve": [
+      "backend/AssetService/AssetManagementSystem.Api.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.serve.executor": [
+      "backend/AssetService/AssetManagementSystem.Api.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.serve.options": [
+      "backend/AssetService/AssetManagementSystem.Api.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.serve.configurations": [
+      "backend/AssetService/AssetManagementSystem.Api.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.serve.options.configuration": [
+      "backend/AssetService/AssetManagementSystem.Api.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.serve.configurations.production": [
+      "backend/AssetService/AssetManagementSystem.Api.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.serve.configurations.production.configuration": [
+      "backend/AssetService/AssetManagementSystem.Api.csproj",
+      "@nx-dotnet/core"
     ],
     "targets.build.inputs": [
       "nx.json",
       "nx/target-defaults"
     ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "backend/AuthService": {
+    "root": [
+      "backend/AuthService/AuthService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "name": [
+      "backend/AuthService/AuthService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "tags": [
+      "backend/AuthService/AuthService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "tags.nx-dotnet": [
+      "backend/AuthService/AuthService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets": [
+      "backend/AuthService/AuthService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build": [
+      "backend/AuthService/AuthService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.executor": [
+      "backend/AuthService/AuthService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.outputs": [
+      "backend/AuthService/AuthService.csproj",
+      "@nx-dotnet/core"
+    ],
     "targets.build.cache": [
       "nx.json",
       "nx/target-defaults"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.options": [
+      "backend/AuthService/AuthService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.configurations": [
+      "backend/AuthService/AuthService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.options.configuration": [
+      "backend/AuthService/AuthService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.options.noDependencies": [
+      "backend/AuthService/AuthService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.configurations.production": [
+      "backend/AuthService/AuthService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.configurations.production.configuration": [
+      "backend/AuthService/AuthService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.lint": [
+      "backend/AuthService/AuthService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.lint.executor": [
+      "backend/AuthService/AuthService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.serve": [
+      "backend/AuthService/AuthService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.serve.executor": [
+      "backend/AuthService/AuthService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.serve.options": [
+      "backend/AuthService/AuthService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.serve.configurations": [
+      "backend/AuthService/AuthService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.serve.options.configuration": [
+      "backend/AuthService/AuthService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.serve.configurations.production": [
+      "backend/AuthService/AuthService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.serve.configurations.production.configuration": [
+      "backend/AuthService/AuthService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "backend/EmployeeService": {
+    "root": [
+      "backend/EmployeeService/EmployeeService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "name": [
+      "backend/EmployeeService/EmployeeService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "tags": [
+      "backend/EmployeeService/EmployeeService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "tags.nx-dotnet": [
+      "backend/EmployeeService/EmployeeService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets": [
+      "backend/EmployeeService/EmployeeService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build": [
+      "backend/EmployeeService/EmployeeService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.executor": [
+      "backend/EmployeeService/EmployeeService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.outputs": [
+      "backend/EmployeeService/EmployeeService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.options": [
+      "backend/EmployeeService/EmployeeService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.configurations": [
+      "backend/EmployeeService/EmployeeService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.options.configuration": [
+      "backend/EmployeeService/EmployeeService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.options.noDependencies": [
+      "backend/EmployeeService/EmployeeService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.configurations.production": [
+      "backend/EmployeeService/EmployeeService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.configurations.production.configuration": [
+      "backend/EmployeeService/EmployeeService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.lint": [
+      "backend/EmployeeService/EmployeeService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.lint.executor": [
+      "backend/EmployeeService/EmployeeService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.serve": [
+      "backend/EmployeeService/EmployeeService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.serve.executor": [
+      "backend/EmployeeService/EmployeeService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.serve.options": [
+      "backend/EmployeeService/EmployeeService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.serve.configurations": [
+      "backend/EmployeeService/EmployeeService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.serve.options.configuration": [
+      "backend/EmployeeService/EmployeeService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.serve.configurations.production": [
+      "backend/EmployeeService/EmployeeService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.serve.configurations.production.configuration": [
+      "backend/EmployeeService/EmployeeService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "backend/HelpDeskService": {
+    "root": [
+      "backend/HelpDeskService/HelpdeskService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "name": [
+      "backend/HelpDeskService/HelpdeskService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "tags": [
+      "backend/HelpDeskService/HelpdeskService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "tags.nx-dotnet": [
+      "backend/HelpDeskService/HelpdeskService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets": [
+      "backend/HelpDeskService/HelpdeskService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build": [
+      "backend/HelpDeskService/HelpdeskService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.executor": [
+      "backend/HelpDeskService/HelpdeskService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.outputs": [
+      "backend/HelpDeskService/HelpdeskService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.options": [
+      "backend/HelpDeskService/HelpdeskService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.configurations": [
+      "backend/HelpDeskService/HelpdeskService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.options.configuration": [
+      "backend/HelpDeskService/HelpdeskService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.options.noDependencies": [
+      "backend/HelpDeskService/HelpdeskService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.configurations.production": [
+      "backend/HelpDeskService/HelpdeskService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.configurations.production.configuration": [
+      "backend/HelpDeskService/HelpdeskService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.lint": [
+      "backend/HelpDeskService/HelpdeskService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.lint.executor": [
+      "backend/HelpDeskService/HelpdeskService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.serve": [
+      "backend/HelpDeskService/HelpdeskService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.serve.executor": [
+      "backend/HelpDeskService/HelpdeskService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.serve.options": [
+      "backend/HelpDeskService/HelpdeskService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.serve.configurations": [
+      "backend/HelpDeskService/HelpdeskService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.serve.options.configuration": [
+      "backend/HelpDeskService/HelpdeskService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.serve.configurations.production": [
+      "backend/HelpDeskService/HelpdeskService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.serve.configurations.production.configuration": [
+      "backend/HelpDeskService/HelpdeskService.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "backend/InventoryService/Inventory.API": {
+    "root": [
+      "backend/InventoryService/Inventory.API/Inventory.API.csproj",
+      "@nx-dotnet/core"
+    ],
+    "name": [
+      "backend/InventoryService/Inventory.API/Inventory.API.csproj",
+      "@nx-dotnet/core"
+    ],
+    "tags": [
+      "backend/InventoryService/Inventory.API/Inventory.API.csproj",
+      "@nx-dotnet/core"
+    ],
+    "tags.nx-dotnet": [
+      "backend/InventoryService/Inventory.API/Inventory.API.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets": [
+      "backend/InventoryService/Inventory.API/Inventory.API.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build": [
+      "backend/InventoryService/Inventory.API/Inventory.API.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.executor": [
+      "backend/InventoryService/Inventory.API/Inventory.API.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.outputs": [
+      "backend/InventoryService/Inventory.API/Inventory.API.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.options": [
+      "backend/InventoryService/Inventory.API/Inventory.API.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.configurations": [
+      "backend/InventoryService/Inventory.API/Inventory.API.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.options.configuration": [
+      "backend/InventoryService/Inventory.API/Inventory.API.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.options.noDependencies": [
+      "backend/InventoryService/Inventory.API/Inventory.API.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.configurations.production": [
+      "backend/InventoryService/Inventory.API/Inventory.API.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.configurations.production.configuration": [
+      "backend/InventoryService/Inventory.API/Inventory.API.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.lint": [
+      "backend/InventoryService/Inventory.API/Inventory.API.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.lint.executor": [
+      "backend/InventoryService/Inventory.API/Inventory.API.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.serve": [
+      "backend/InventoryService/Inventory.API/Inventory.API.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.serve.executor": [
+      "backend/InventoryService/Inventory.API/Inventory.API.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.serve.options": [
+      "backend/InventoryService/Inventory.API/Inventory.API.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.serve.configurations": [
+      "backend/InventoryService/Inventory.API/Inventory.API.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.serve.options.configuration": [
+      "backend/InventoryService/Inventory.API/Inventory.API.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.serve.configurations.production": [
+      "backend/InventoryService/Inventory.API/Inventory.API.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.serve.configurations.production.configuration": [
+      "backend/InventoryService/Inventory.API/Inventory.API.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "backend/ModuleRegistryApi": {
+    "root": [
+      "backend/ModuleRegistryApi/ModuleRegistryApi.csproj",
+      "@nx-dotnet/core"
+    ],
+    "name": [
+      "backend/ModuleRegistryApi/ModuleRegistryApi.csproj",
+      "@nx-dotnet/core"
+    ],
+    "tags": [
+      "backend/ModuleRegistryApi/ModuleRegistryApi.csproj",
+      "@nx-dotnet/core"
+    ],
+    "tags.nx-dotnet": [
+      "backend/ModuleRegistryApi/ModuleRegistryApi.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets": [
+      "backend/ModuleRegistryApi/ModuleRegistryApi.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build": [
+      "backend/ModuleRegistryApi/ModuleRegistryApi.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.executor": [
+      "backend/ModuleRegistryApi/ModuleRegistryApi.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.outputs": [
+      "backend/ModuleRegistryApi/ModuleRegistryApi.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.options": [
+      "backend/ModuleRegistryApi/ModuleRegistryApi.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.configurations": [
+      "backend/ModuleRegistryApi/ModuleRegistryApi.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.options.configuration": [
+      "backend/ModuleRegistryApi/ModuleRegistryApi.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.options.noDependencies": [
+      "backend/ModuleRegistryApi/ModuleRegistryApi.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.configurations.production": [
+      "backend/ModuleRegistryApi/ModuleRegistryApi.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.configurations.production.configuration": [
+      "backend/ModuleRegistryApi/ModuleRegistryApi.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.lint": [
+      "backend/ModuleRegistryApi/ModuleRegistryApi.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.lint.executor": [
+      "backend/ModuleRegistryApi/ModuleRegistryApi.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.serve": [
+      "backend/ModuleRegistryApi/ModuleRegistryApi.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.serve.executor": [
+      "backend/ModuleRegistryApi/ModuleRegistryApi.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.serve.options": [
+      "backend/ModuleRegistryApi/ModuleRegistryApi.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.serve.configurations": [
+      "backend/ModuleRegistryApi/ModuleRegistryApi.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.serve.options.configuration": [
+      "backend/ModuleRegistryApi/ModuleRegistryApi.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.serve.configurations.production": [
+      "backend/ModuleRegistryApi/ModuleRegistryApi.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.serve.configurations.production.configuration": [
+      "backend/ModuleRegistryApi/ModuleRegistryApi.csproj",
+      "@nx-dotnet/core"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "federations/asset_mf": {
+    "root": [
+      "federations/asset_mf/package.json",
+      "nx/core/package-json"
     ],
     "name": [
       "federations/asset_mf/package.json",
@@ -84,11 +784,19 @@
       "federations/asset_mf/package.json",
       "nx/core/package-json"
     ],
+    "targets": [
+      "federations/asset_mf/package.json",
+      "nx/core/package-json"
+    ],
     "targets.dev": [
       "federations/asset_mf/package.json",
       "nx/core/package-json"
     ],
     "targets.dev.executor": [
+      "federations/asset_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.options": [
       "federations/asset_mf/package.json",
       "nx/core/package-json"
     ],
@@ -100,10 +808,6 @@
       "federations/asset_mf/package.json",
       "nx/core/package-json"
     ],
-    "targets.dev.options": [
-      "federations/asset_mf/package.json",
-      "nx/core/package-json"
-    ],
     "targets.dev.metadata.scriptContent": [
       "federations/asset_mf/package.json",
       "nx/core/package-json"
@@ -112,7 +816,15 @@
       "federations/asset_mf/package.json",
       "nx/core/package-json"
     ],
+    "targets.build": [
+      "federations/asset_mf/package.json",
+      "nx/core/package-json"
+    ],
     "targets.build.executor": [
+      "federations/asset_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
       "federations/asset_mf/package.json",
       "nx/core/package-json"
     ],
@@ -121,10 +833,6 @@
       "nx/core/package-json"
     ],
     "targets.build.options.script": [
-      "federations/asset_mf/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.build.options": [
       "federations/asset_mf/package.json",
       "nx/core/package-json"
     ],
@@ -144,15 +852,15 @@
       "federations/asset_mf/package.json",
       "nx/core/package-json"
     ],
+    "targets.preview.options": [
+      "federations/asset_mf/package.json",
+      "nx/core/package-json"
+    ],
     "targets.preview.metadata": [
       "federations/asset_mf/package.json",
       "nx/core/package-json"
     ],
     "targets.preview.options.script": [
-      "federations/asset_mf/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.preview.options": [
       "federations/asset_mf/package.json",
       "nx/core/package-json"
     ],
@@ -163,60 +871,28 @@
     "targets.preview.metadata.runCommand": [
       "federations/asset_mf/package.json",
       "nx/core/package-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
     ]
   },
   "federations/employee_mf": {
     "root": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.build": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.build.dependsOn.0": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.build.dependsOn": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.build.inputs.0": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.build.inputs.1": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.build.inputs": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.build.cache": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.lint": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.lint.inputs.0": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.lint.inputs": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.lint.cache": [
-      "nx.json",
-      "nx/target-defaults"
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
     ],
     "name": [
       "federations/employee_mf/package.json",
@@ -270,11 +946,19 @@
       "federations/employee_mf/package.json",
       "nx/core/package-json"
     ],
+    "targets": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
     "targets.dev": [
       "federations/employee_mf/package.json",
       "nx/core/package-json"
     ],
     "targets.dev.executor": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.options": [
       "federations/employee_mf/package.json",
       "nx/core/package-json"
     ],
@@ -286,10 +970,6 @@
       "federations/employee_mf/package.json",
       "nx/core/package-json"
     ],
-    "targets.dev.options": [
-      "federations/employee_mf/package.json",
-      "nx/core/package-json"
-    ],
     "targets.dev.metadata.scriptContent": [
       "federations/employee_mf/package.json",
       "nx/core/package-json"
@@ -298,7 +978,15 @@
       "federations/employee_mf/package.json",
       "nx/core/package-json"
     ],
+    "targets.build": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
     "targets.build.executor": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
       "federations/employee_mf/package.json",
       "nx/core/package-json"
     ],
@@ -310,10 +998,6 @@
       "federations/employee_mf/package.json",
       "nx/core/package-json"
     ],
-    "targets.build.options": [
-      "federations/employee_mf/package.json",
-      "nx/core/package-json"
-    ],
     "targets.build.metadata.scriptContent": [
       "federations/employee_mf/package.json",
       "nx/core/package-json"
@@ -322,7 +1006,15 @@
       "federations/employee_mf/package.json",
       "nx/core/package-json"
     ],
+    "targets.lint": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
     "targets.lint.executor": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options": [
       "federations/employee_mf/package.json",
       "nx/core/package-json"
     ],
@@ -331,10 +1023,6 @@
       "nx/core/package-json"
     ],
     "targets.lint.options.script": [
-      "federations/employee_mf/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.lint.options": [
       "federations/employee_mf/package.json",
       "nx/core/package-json"
     ],
@@ -354,15 +1042,15 @@
       "federations/employee_mf/package.json",
       "nx/core/package-json"
     ],
+    "targets.preview.options": [
+      "federations/employee_mf/package.json",
+      "nx/core/package-json"
+    ],
     "targets.preview.metadata": [
       "federations/employee_mf/package.json",
       "nx/core/package-json"
     ],
     "targets.preview.options.script": [
-      "federations/employee_mf/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.preview.options": [
       "federations/employee_mf/package.json",
       "nx/core/package-json"
     ],
@@ -373,60 +1061,40 @@
     "targets.preview.metadata.runCommand": [
       "federations/employee_mf/package.json",
       "nx/core/package-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
     ]
   },
   "federations/helpdesk_mf": {
     "root": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.build": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.build.dependsOn.0": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.build.dependsOn": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.build.inputs.0": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.build.inputs.1": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.build.inputs": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.build.cache": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.lint": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.lint.inputs.0": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.lint.inputs": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.lint.cache": [
-      "nx.json",
-      "nx/target-defaults"
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
     ],
     "name": [
       "federations/helpdesk_mf/package.json",
@@ -480,11 +1148,19 @@
       "federations/helpdesk_mf/package.json",
       "nx/core/package-json"
     ],
+    "targets": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
     "targets.dev": [
       "federations/helpdesk_mf/package.json",
       "nx/core/package-json"
     ],
     "targets.dev.executor": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.options": [
       "federations/helpdesk_mf/package.json",
       "nx/core/package-json"
     ],
@@ -496,10 +1172,6 @@
       "federations/helpdesk_mf/package.json",
       "nx/core/package-json"
     ],
-    "targets.dev.options": [
-      "federations/helpdesk_mf/package.json",
-      "nx/core/package-json"
-    ],
     "targets.dev.metadata.scriptContent": [
       "federations/helpdesk_mf/package.json",
       "nx/core/package-json"
@@ -508,7 +1180,15 @@
       "federations/helpdesk_mf/package.json",
       "nx/core/package-json"
     ],
+    "targets.build": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
     "targets.build.executor": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
       "federations/helpdesk_mf/package.json",
       "nx/core/package-json"
     ],
@@ -520,10 +1200,6 @@
       "federations/helpdesk_mf/package.json",
       "nx/core/package-json"
     ],
-    "targets.build.options": [
-      "federations/helpdesk_mf/package.json",
-      "nx/core/package-json"
-    ],
     "targets.build.metadata.scriptContent": [
       "federations/helpdesk_mf/package.json",
       "nx/core/package-json"
@@ -532,7 +1208,15 @@
       "federations/helpdesk_mf/package.json",
       "nx/core/package-json"
     ],
+    "targets.lint": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
     "targets.lint.executor": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options": [
       "federations/helpdesk_mf/package.json",
       "nx/core/package-json"
     ],
@@ -541,10 +1225,6 @@
       "nx/core/package-json"
     ],
     "targets.lint.options.script": [
-      "federations/helpdesk_mf/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.lint.options": [
       "federations/helpdesk_mf/package.json",
       "nx/core/package-json"
     ],
@@ -564,15 +1244,15 @@
       "federations/helpdesk_mf/package.json",
       "nx/core/package-json"
     ],
+    "targets.preview.options": [
+      "federations/helpdesk_mf/package.json",
+      "nx/core/package-json"
+    ],
     "targets.preview.metadata": [
       "federations/helpdesk_mf/package.json",
       "nx/core/package-json"
     ],
     "targets.preview.options.script": [
-      "federations/helpdesk_mf/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.preview.options": [
       "federations/helpdesk_mf/package.json",
       "nx/core/package-json"
     ],
@@ -583,60 +1263,40 @@
     "targets.preview.metadata.runCommand": [
       "federations/helpdesk_mf/package.json",
       "nx/core/package-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
     ]
   },
   "federations/inventory_mf": {
     "root": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.build": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.build.dependsOn.0": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.build.dependsOn": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.build.inputs.0": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.build.inputs.1": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.build.inputs": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.build.cache": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.lint": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.lint.inputs.0": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.lint.inputs": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.lint.cache": [
-      "nx.json",
-      "nx/target-defaults"
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
     ],
     "name": [
       "federations/inventory_mf/package.json",
@@ -690,11 +1350,19 @@
       "federations/inventory_mf/package.json",
       "nx/core/package-json"
     ],
+    "targets": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
     "targets.dev": [
       "federations/inventory_mf/package.json",
       "nx/core/package-json"
     ],
     "targets.dev.executor": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.options": [
       "federations/inventory_mf/package.json",
       "nx/core/package-json"
     ],
@@ -706,10 +1374,6 @@
       "federations/inventory_mf/package.json",
       "nx/core/package-json"
     ],
-    "targets.dev.options": [
-      "federations/inventory_mf/package.json",
-      "nx/core/package-json"
-    ],
     "targets.dev.metadata.scriptContent": [
       "federations/inventory_mf/package.json",
       "nx/core/package-json"
@@ -718,7 +1382,15 @@
       "federations/inventory_mf/package.json",
       "nx/core/package-json"
     ],
+    "targets.build": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
     "targets.build.executor": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
       "federations/inventory_mf/package.json",
       "nx/core/package-json"
     ],
@@ -730,10 +1402,6 @@
       "federations/inventory_mf/package.json",
       "nx/core/package-json"
     ],
-    "targets.build.options": [
-      "federations/inventory_mf/package.json",
-      "nx/core/package-json"
-    ],
     "targets.build.metadata.scriptContent": [
       "federations/inventory_mf/package.json",
       "nx/core/package-json"
@@ -742,7 +1410,15 @@
       "federations/inventory_mf/package.json",
       "nx/core/package-json"
     ],
+    "targets.lint": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
     "targets.lint.executor": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options": [
       "federations/inventory_mf/package.json",
       "nx/core/package-json"
     ],
@@ -751,10 +1427,6 @@
       "nx/core/package-json"
     ],
     "targets.lint.options.script": [
-      "federations/inventory_mf/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.lint.options": [
       "federations/inventory_mf/package.json",
       "nx/core/package-json"
     ],
@@ -774,15 +1446,15 @@
       "federations/inventory_mf/package.json",
       "nx/core/package-json"
     ],
+    "targets.preview.options": [
+      "federations/inventory_mf/package.json",
+      "nx/core/package-json"
+    ],
     "targets.preview.metadata": [
       "federations/inventory_mf/package.json",
       "nx/core/package-json"
     ],
     "targets.preview.options.script": [
-      "federations/inventory_mf/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.preview.options": [
       "federations/inventory_mf/package.json",
       "nx/core/package-json"
     ],
@@ -793,34 +1465,8 @@
     "targets.preview.metadata.runCommand": [
       "federations/inventory_mf/package.json",
       "nx/core/package-json"
-    ]
-  },
-  "host-app": {
-    "root": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.build": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.build.dependsOn.0": [
-      "nx.json",
-      "nx/target-defaults"
     ],
     "targets.build.dependsOn": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.build.inputs.0": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.build.inputs.1": [
       "nx.json",
       "nx/target-defaults"
     ],
@@ -832,11 +1478,7 @@
       "nx.json",
       "nx/target-defaults"
     ],
-    "targets.lint": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.lint.inputs.0": [
+    "targets.build.parallelism": [
       "nx.json",
       "nx/target-defaults"
     ],
@@ -847,6 +1489,16 @@
     "targets.lint.cache": [
       "nx.json",
       "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "host-app": {
+    "root": [
+      "host-app/package.json",
+      "nx/core/package-json"
     ],
     "name": [
       "host-app/package.json",
@@ -904,11 +1556,19 @@
       "host-app/package.json",
       "nx/core/package-json"
     ],
+    "targets": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
     "targets.dev": [
       "host-app/package.json",
       "nx/core/package-json"
     ],
     "targets.dev.executor": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.options": [
       "host-app/package.json",
       "nx/core/package-json"
     ],
@@ -920,10 +1580,6 @@
       "host-app/package.json",
       "nx/core/package-json"
     ],
-    "targets.dev.options": [
-      "host-app/package.json",
-      "nx/core/package-json"
-    ],
     "targets.dev.metadata.scriptContent": [
       "host-app/package.json",
       "nx/core/package-json"
@@ -932,7 +1588,15 @@
       "host-app/package.json",
       "nx/core/package-json"
     ],
+    "targets.build": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
     "targets.build.executor": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
       "host-app/package.json",
       "nx/core/package-json"
     ],
@@ -944,10 +1608,6 @@
       "host-app/package.json",
       "nx/core/package-json"
     ],
-    "targets.build.options": [
-      "host-app/package.json",
-      "nx/core/package-json"
-    ],
     "targets.build.metadata.scriptContent": [
       "host-app/package.json",
       "nx/core/package-json"
@@ -956,7 +1616,15 @@
       "host-app/package.json",
       "nx/core/package-json"
     ],
+    "targets.lint": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
     "targets.lint.executor": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options": [
       "host-app/package.json",
       "nx/core/package-json"
     ],
@@ -965,10 +1633,6 @@
       "nx/core/package-json"
     ],
     "targets.lint.options.script": [
-      "host-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.lint.options": [
       "host-app/package.json",
       "nx/core/package-json"
     ],
@@ -988,15 +1652,15 @@
       "host-app/package.json",
       "nx/core/package-json"
     ],
+    "targets.preview.options": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
     "targets.preview.metadata": [
       "host-app/package.json",
       "nx/core/package-json"
     ],
     "targets.preview.options.script": [
-      "host-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.preview.options": [
       "host-app/package.json",
       "nx/core/package-json"
     ],
@@ -1016,15 +1680,15 @@
       "host-app/package.json",
       "nx/core/package-json"
     ],
+    "targets.test.options": [
+      "host-app/package.json",
+      "nx/core/package-json"
+    ],
     "targets.test.metadata": [
       "host-app/package.json",
       "nx/core/package-json"
     ],
     "targets.test.options.script": [
-      "host-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.test.options": [
       "host-app/package.json",
       "nx/core/package-json"
     ],
@@ -1035,6 +1699,34 @@
     "targets.test.metadata.runCommand": [
       "host-app/package.json",
       "nx/core/package-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
     ]
   },
   "shared": {

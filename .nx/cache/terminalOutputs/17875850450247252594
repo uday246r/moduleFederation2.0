@@ -1,0 +1,25 @@
+
+> helpdesk-mf@0.0.0 lint
+> eslint .
+
+[0m
+[4mC:\Users\udayo\OneDrive\Desktop\mf_2\podman\federations\helpdesk_mf\src\pages\CreateTicket.jsx[24m
+  [2m33:16[22m  [33mwarning[39m  'err' is defined but never used  [2mno-unused-vars[22m
+
+[4mC:\Users\udayo\OneDrive\Desktop\mf_2\podman\federations\helpdesk_mf\src\pages\TicketList.jsx[24m
+  [2m20:10[22m  [33mwarning[39m  'canViewTicket' is assigned a value but never used  [2mno-unused-vars[22m
+
+[4mC:\Users\udayo\OneDrive\Desktop\mf_2\podman\federations\helpdesk_mf\src\services\api.js[24m
+   [2m3:7[22m   [33mwarning[39m  'isTokenExpired' is assigned a value but never used  [2mno-unused-vars[22m
+  [2m13:12[22m  [33mwarning[39m  'e' is defined but never used                        [2mno-unused-vars[22m
+
+[4mC:\Users\udayo\OneDrive\Desktop\mf_2\podman\federations\helpdesk_mf\src\services\authService.js[24m
+  [2m16:14[22m  [33mwarning[39m  'error' is defined but never used  [2mno-unused-vars[22m
+  [2m26:14[22m  [33mwarning[39m  'error' is defined but never used  [2mno-unused-vars[22m
+
+[4mC:\Users\udayo\OneDrive\Desktop\mf_2\podman\federations\helpdesk_mf\vite.config.js[24m
+  [2m4:8[22m  [33mwarning[39m  'fs' is defined but never used                  [2mno-unused-vars[22m
+  [2m8:7[22m  [33mwarning[39m  '__dirname' is assigned a value but never used  [2mno-unused-vars[22m
+
+[33m[1m✖ 8 problems (0 errors, 8 warnings)[22m[39m
+[0m

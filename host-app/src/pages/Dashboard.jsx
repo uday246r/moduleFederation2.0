@@ -23,9 +23,7 @@ function Dashboard() {
   const [apps, setApps] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    fetchModules();
-  }, []);
+
 
   async function fetchModules() {
     try {
@@ -44,6 +42,11 @@ function Dashboard() {
       setLoading(false);
     }
   }
+
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    fetchModules();
+  }, []);
 
   if (loading) {
     return <h2>Loading Modules...</h2>;

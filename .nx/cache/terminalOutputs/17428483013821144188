@@ -1,0 +1,1 @@
+Executing Command: dotnet "format" "backend/AssetService/AssetManagementSystem.Api.csproj" "--verbosity=minimal" "--verify-no-changes"

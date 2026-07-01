@@ -53,7 +53,7 @@ public class AccessController : ControllerBase
 
         var hasPermission = await _context.RolePermissions
             .Where(rp => roleIds.Contains(rp.RoleId))
-            .AnyAsync(rp => 
+            .AnyAsync(rp =>
                 (rp.Permission.ModuleName.ToLower() == moduleName.ToLower() || rp.Permission.ModuleName == "*") &&
                 (rp.Permission.Action.ToLower() == action.ToLower() || rp.Permission.Action == "*"));
 

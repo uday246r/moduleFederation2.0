@@ -32,5 +32,8 @@
       "cache": true
     }
   },
-  "analytics": true
+  "analytics": true,
+  "plugins": [
+    "@nx-dotnet/core"
+  ]
 }

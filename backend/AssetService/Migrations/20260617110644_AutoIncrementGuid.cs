@@ -36,7 +36,7 @@ DROP SEQUENCE IF EXISTS ""Assets_Id_seq"";
 ALTER TABLE ""Assets"" ALTER COLUMN ""Id"" TYPE uuid USING gen_random_uuid();
 ALTER TABLE ""Assets"" ALTER COLUMN ""Id"" SET DEFAULT gen_random_uuid();
 ");
-// duplicate migration removed
+            // duplicate migration removed
 
             migrationBuilder.CreateTable(
                 name: "Employees",

@@ -74,7 +74,7 @@ using (var scope = app.Services.CreateScope())
         var dashboardModuleView = new AuthService.Models.Permission { ModuleName = "Dashboard", Action = "View" };
 
 
-        
+
         db.Permissions.AddRange(
             adminModuleView, employeeModuleView, inventoryModuleView, helpdeskModuleView, assetModuleView, permissionModuleView, maintenanceModuleView, dashboardModuleView,
             helpdeskModuleViewTicket, helpdeskModuleCreateTicket, helpdeskModuleEditTicket, helpdeskModuleDeleteTicket,

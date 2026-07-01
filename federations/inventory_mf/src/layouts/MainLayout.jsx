@@ -10,9 +10,7 @@ function MainLayout({ children }) {
     setSidebarCollapsed(prev => !prev);
   };
 
-  const toggleMobileSidebar = () => {
-    setMobileOpen(prev => !prev);
-  };
+
 
   const closeMobileSidebar = () => {
     setMobileOpen(false);
