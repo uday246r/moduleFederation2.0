@@ -4561,3 +4561,101 @@ Fetching nx...
 [NX v22.7.6 Daemon Server] - 2026-07-01T17:21:49.760Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 3940. Response time: 3.
 [NX v22.7.6 Daemon Client] - 2026-07-01T17:21:49.761Z - [Messenger] Received message, length: 344891
 [NX v22.7.6 Daemon Server] - 2026-07-01T17:21:50.022Z - Closed a connection. Number of open connections: 0
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use \\.\pipe\nx\C:\Users\udayo\AppData\Local\Temp\b8395eef49dcca576f59\d.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1915:21)
+    at listenInCluster (node:net:1994:12)
+    at Server.listen (node:net:2116:5)
+    at C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\@nx\devkit\node_modules\nx\src\daemon\server\server.js:374:20
+    at new Promise (<anonymous>)
+    at startServer (C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\@nx\devkit\node_modules\nx\src\daemon\server\server.js:372:12)
+    at async C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\@nx\devkit\node_modules\nx\src\daemon\server\start.js:8:9
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1973:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '\\\\.\\pipe\\nx\\C:\\Users\\udayo\\AppData\\Local\\Temp\\b8395eef49dcca576f59\\d.sock',
+  port: -1
+}
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use \\.\pipe\nx\C:\Users\udayo\AppData\Local\Temp\b8395eef49dcca576f59\d.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1915:21)
+    at listenInCluster (node:net:1994:12)
+    at Server.listen (node:net:2116:5)
+    at C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\@nx\devkit\node_modules\nx\src\daemon\server\server.js:374:20
+    at new Promise (<anonymous>)
+    at startServer (C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\@nx\devkit\node_modules\nx\src\daemon\server\server.js:372:12)
+    at async C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\@nx\devkit\node_modules\nx\src\daemon\server\start.js:8:9
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1973:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '\\\\.\\pipe\\nx\\C:\\Users\\udayo\\AppData\\Local\\Temp\\b8395eef49dcca576f59\\d.sock',
+  port: -1
+}
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use \\.\pipe\nx\C:\Users\udayo\AppData\Local\Temp\b8395eef49dcca576f59\d.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1915:21)
+    at listenInCluster (node:net:1994:12)
+    at Server.listen (node:net:2116:5)
+    at C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\@nx\devkit\node_modules\nx\src\daemon\server\server.js:374:20
+    at new Promise (<anonymous>)
+    at startServer (C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\@nx\devkit\node_modules\nx\src\daemon\server\server.js:372:12)
+    at async C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\@nx\devkit\node_modules\nx\src\daemon\server\start.js:8:9
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1973:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '\\\\.\\pipe\\nx\\C:\\Users\\udayo\\AppData\\Local\\Temp\\b8395eef49dcca576f59\\d.sock',
+  port: -1
+}
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use \\.\pipe\nx\C:\Users\udayo\AppData\Local\Temp\b8395eef49dcca576f59\d.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1915:21)
+    at listenInCluster (node:net:1994:12)
+    at Server.listen (node:net:2116:5)
+    at C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\@nx\devkit\node_modules\nx\src\daemon\server\server.js:374:20
+    at new Promise (<anonymous>)
+    at startServer (C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\@nx\devkit\node_modules\nx\src\daemon\server\server.js:372:12)
+    at async C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\@nx\devkit\node_modules\nx\src\daemon\server\start.js:8:9
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1973:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '\\\\.\\pipe\\nx\\C:\\Users\\udayo\\AppData\\Local\\Temp\\b8395eef49dcca576f59\\d.sock',
+  port: -1
+}
+
+Node.js v22.14.0
+
+Node.js v22.14.0
+
+Node.js v22.14.0
+
+Node.js v22.14.0
+[NX v21.4.1 Daemon Server] - 2026-07-01T17:38:35.667Z - Started listening on: \\.\pipe\nx\C:\Users\udayo\AppData\Local\Temp\b8395eef49dcca576f59\d.sock
+[NX v21.4.1 Daemon Server] - 2026-07-01T17:38:35.701Z - [WATCHER]: Subscribed to changes within: C:\Users\udayo\OneDrive\Desktop\mf_2\podman (native)
+[NX v21.4.1 Daemon Server] - 2026-07-01T17:38:35.709Z - [WATCHER]: Stopping the watcher for C:\Users\udayo\OneDrive\Desktop\mf_2\podman (sources)
+[NX v21.4.1 Daemon Server] - 2026-07-01T17:38:35.712Z - [WATCHER]: Stopping the watcher for C:\Users\udayo\OneDrive\Desktop\mf_2\podman (sources)
+[NX v21.4.1 Daemon Server] - 2026-07-01T17:38:35.712Z - [WATCHER]: Stopping the watcher for C:\Users\udayo\OneDrive\Desktop\mf_2\podman (outputs)
+[NX v21.4.1 Daemon Server] - 2026-07-01T17:38:35.715Z - Server stopped because: "this process is no longer the current daemon (native)"

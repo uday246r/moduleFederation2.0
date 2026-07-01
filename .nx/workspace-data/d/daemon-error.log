@@ -1,0 +1,26 @@
+Failed to start or connect to the Nx Daemon process.
+
+Messages from the log:
+  errno: -4091,
+  syscall: 'listen',
+  address: '\\\\.\\pipe\\nx\\C:\\Users\\udayo\\AppData\\Local\\Temp\\b8395eef49dcca576f59\\d.sock',
+  port: -1
+}
+
+Node.js v22.14.0
+
+Node.js v22.14.0
+
+Node.js v22.14.0
+
+Node.js v22.14.0
+[NX v21.4.1 Daemon Server] - 2026-07-01T17:38:35.667Z - Started listening on: \\.\pipe\nx\C:\Users\udayo\AppData\Local\Temp\b8395eef49dcca576f59\d.sock
+[NX v21.4.1 Daemon Server] - 2026-07-01T17:38:35.701Z - [WATCHER]: Subscribed to changes within: C:\Users\udayo\OneDrive\Desktop\mf_2\podman (native)
+[NX v21.4.1 Daemon Server] - 2026-07-01T17:38:35.709Z - [WATCHER]: Stopping the watcher for C:\Users\udayo\OneDrive\Desktop\mf_2\podman (sources)
+[NX v21.4.1 Daemon Server] - 2026-07-01T17:38:35.712Z - [WATCHER]: Stopping the watcher for C:\Users\udayo\OneDrive\Desktop\mf_2\podman (sources)
+[NX v21.4.1 Daemon Server] - 2026-07-01T17:38:35.712Z - [WATCHER]: Stopping the watcher for C:\Users\udayo\OneDrive\Desktop\mf_2\podman (outputs)
+[NX v21.4.1 Daemon Server] - 2026-07-01T17:38:35.715Z - Server stopped because: "this process is no longer the current daemon (native)"
+
+
+
+More information: C:\Users\udayo\OneDrive\Desktop\mf_2\podman\.nx\workspace-data\d\daemon.log

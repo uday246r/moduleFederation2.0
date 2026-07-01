@@ -776,10 +776,6 @@
       "federations/asset_mf/package.json",
       "nx/core/package-json"
     ],
-    "metadata.js.packageVersion": [
-      "federations/asset_mf/package.json",
-      "nx/core/package-json"
-    ],
     "metadata.js.isInPackageManagerWorkspaces": [
       "federations/asset_mf/package.json",
       "nx/core/package-json"
@@ -935,10 +931,6 @@
       "nx/core/package-json"
     ],
     "metadata.js.packageName": [
-      "federations/employee_mf/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.js.packageVersion": [
       "federations/employee_mf/package.json",
       "nx/core/package-json"
     ],
@@ -1140,10 +1132,6 @@
       "federations/helpdesk_mf/package.json",
       "nx/core/package-json"
     ],
-    "metadata.js.packageVersion": [
-      "federations/helpdesk_mf/package.json",
-      "nx/core/package-json"
-    ],
     "metadata.js.isInPackageManagerWorkspaces": [
       "federations/helpdesk_mf/package.json",
       "nx/core/package-json"
@@ -1339,10 +1327,6 @@
       "nx/core/package-json"
     ],
     "metadata.js.packageName": [
-      "federations/inventory_mf/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.js.packageVersion": [
       "federations/inventory_mf/package.json",
       "nx/core/package-json"
     ],
@@ -1545,10 +1529,6 @@
       "nx/core/package-json"
     ],
     "metadata.js.packageName": [
-      "host-app/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.js.packageVersion": [
       "host-app/package.json",
       "nx/core/package-json"
     ],
@@ -1755,10 +1735,6 @@
       "nx/core/package-json"
     ],
     "metadata.js.packageName": [
-      "shared/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.js.packageVersion": [
       "shared/package.json",
       "nx/core/package-json"
     ],
