@@ -23,9 +23,7 @@ function Dashboard() {
   const [apps, setApps] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    fetchModules();
-  }, []);
+
 
   async function fetchModules() {
     try {
@@ -44,6 +42,10 @@ function Dashboard() {
       setLoading(false);
     }
   }
+
+  useEffect(() => {
+    fetchModules();
+  }, []);
 
   if (loading) {
     return <h2>Loading Modules...</h2>;

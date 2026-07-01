@@ -66,16 +66,16 @@ public class RolesController : ControllerBase
         var role = await _context.Roles
             .Include(r => r.RolePermissions)
             .FirstOrDefaultAsync(r => r.Id == id);
-            
+
         if (role == null) return NotFound();
 
         _context.RolePermissions.RemoveRange(role.RolePermissions);
-        
-        foreach(var permId in permissionIds)
+
+        foreach (var permId in permissionIds)
         {
             role.RolePermissions.Add(new RolePermission { RoleId = id, PermissionId = permId });
         }
-        
+
         await _context.SaveChangesAsync();
         return Ok();
     }

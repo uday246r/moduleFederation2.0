@@ -32,7 +32,7 @@ export const getCurrentUser = async () => {
             headers: { Authorization: `Bearer ${token}` }
         });
         return response.data;
-    } catch (error) {
+    } catch {
         return null;
     }
 };
@@ -41,7 +41,7 @@ export const getUserPermissions = async (userId) => {
     try {
         const response = await authApi.get(`/access/userpermissions/${userId}`);
         return response.data;
-    } catch (error) {
+    } catch {
         return [];
     }
 };

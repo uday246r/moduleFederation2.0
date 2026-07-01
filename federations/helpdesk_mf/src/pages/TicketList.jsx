@@ -48,7 +48,7 @@ export const TicketList = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [statusFilter, priorityFilter, assignedFilter]);
 
-  const loadPermissions = async () => {
+  async function loadPermissions() {
     try {
       const user = await getCurrentUser();
       if (!user) return false;

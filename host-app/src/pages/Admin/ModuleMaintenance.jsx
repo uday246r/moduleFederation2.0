@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import "./ModuleMaintenance.css";
 import { getCurrentUser } from "../../utils/auth";
 
@@ -14,7 +14,7 @@ function ModuleMaintenance() {
         fetchs();
     }, []);
 
-    const fetchData = async () => {
+    async function fetchData() {
         try {
             let remoteData = [];
             const regRes = await fetch("http://localhost:5137/api/modules/all");
@@ -35,7 +35,7 @@ function ModuleMaintenance() {
         }
     };
 
-    const fetchs = async () => {
+    async function fetchs() {
         try {
             const user = await getCurrentUser();
             if (!user) return;

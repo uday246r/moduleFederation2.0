@@ -20,6 +20,7 @@ function EmployeeModal({ isOpen, onClose, onSubmit, selectedEmployee }) {
 
   useEffect(() => {
     if (selectedEmployee) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setFormData({
         ...selectedEmployee,
         roleId: selectedEmployee.roleId || "",

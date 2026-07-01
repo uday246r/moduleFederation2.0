@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Navigate } from "react-router-dom";
+
 import { getCurrentUser } from "../utils/auth";
 
 function AccessGuard({ moduleName, permissionName, remoteModule, children }) {
@@ -9,12 +9,12 @@ function AccessGuard({ moduleName, permissionName, remoteModule, children }) {
     const [hasAccess, setHasAccess] = useState(false);
 
     useEffect(() => {
-        setLoading(true);
-        setIsMaintenance(false);
-        setHasAccess(false);
-        setMaintenanceMsg("");
-
         const checkAccess = async () => {
+            setLoading(true);
+            setIsMaintenance(false);
+            setHasAccess(false);
+            setMaintenanceMsg("");
+
             try {
                 const targetPermName = permissionName || moduleName;
 

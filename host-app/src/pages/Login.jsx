@@ -36,7 +36,7 @@ function Login() {
 
       navigate("/dashboard");
 
-    } catch (error) {
+    } catch {
       alert("Invalid credentials");
     }
   };

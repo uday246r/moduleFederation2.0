@@ -7,11 +7,11 @@ public static class MiddlewareExtensions
     public static WebApplication ConfigurePipeline(
         this WebApplication app)
     {
-        if(app.Environment.IsDevelopment())
+        if (app.Environment.IsDevelopment())
         {
-        app.UseSwagger();
+            app.UseSwagger();
 
-        app.UseSwaggerUI();
+            app.UseSwaggerUI();
         }
 
         app.UseMiddleware<ExceptionMiddleware>();

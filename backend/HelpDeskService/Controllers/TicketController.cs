@@ -131,10 +131,10 @@ public class TicketController : ControllerBase
 
         using var client = new HttpClient();
         client.DefaultRequestHeaders.Add("Authorization", authHeader);
-        
+
         var meRes = await client.GetAsync($"{authApiUrl}/api/auth/me");
         if (!meRes.IsSuccessStatusCode) return false;
-        
+
         var meContent = await meRes.Content.ReadAsStringAsync();
         var user = System.Text.Json.JsonDocument.Parse(meContent).RootElement;
         if (!user.TryGetProperty("id", out var idProp)) return false;
@@ -150,8 +150,8 @@ public class TicketController : ControllerBase
         {
             var modName = p.GetProperty("moduleName").GetString()?.ToLower();
             var action = p.GetProperty("action").GetString()?.ToLower();
-            
-            if ((modName == "helpdeskmodule" || modName == "*") && 
+
+            if ((modName == "helpdeskmodule" || modName == "*") &&
                 (action == requiredAction.ToLower() || action == "*"))
             {
                 return true;
