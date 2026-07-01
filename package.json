@@ -8,9 +8,13 @@
     "shared"
   ],
   "devDependencies": {
+    "@nx-dotnet/core": "^3.0.2",
+    "@nx/js": "21.4.1",
     "nx": "latest"
   },
   "scripts": {
-    "build": "nx run-many --target=build --all"
-  }
+    "build": "nx run-many --target=build --all",
+    "prepare": "nx g @nx-dotnet/core:restore"
+  },
+  "dependencies": {}
 }

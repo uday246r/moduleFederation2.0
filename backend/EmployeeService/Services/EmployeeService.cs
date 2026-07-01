@@ -9,6 +9,7 @@ namespace EmployeeService.Services;
 
 public class EmployeeService : IEmployeeService
 {
+    private readonly string _test = "demo";
     private readonly IEmployeeRepository _repository;
 
     private readonly IMapper _mapper;
