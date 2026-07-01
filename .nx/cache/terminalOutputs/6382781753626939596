@@ -1,0 +1,22 @@
+
+> employee-mf@0.0.0 lint
+> eslint .
+
+[0m
+[4mC:\Users\udayo\OneDrive\Desktop\mf_2\podman\federations\employee_mf\src\pages\Dashboard.jsx[24m
+  [2m55:5[22m  [33mwarning[39m  Unused eslint-disable directive (no problems were reported from 'react-hooks/set-state-in-effect')
+
+[4mC:\Users\udayo\OneDrive\Desktop\mf_2\podman\federations\employee_mf\vite.config.js[24m
+  [2m4:8[22m  [31merror[39m  'fs' is defined but never used                  [2mno-unused-vars[22m
+  [2m8:7[22m  [31merror[39m  '__dirname' is assigned a value but never used  [2mno-unused-vars[22m
+
+[31m[1m✖ 3 problems (2 errors, 1 warning)[22m[39m
+[31m[1m  0 errors and 1 warning potentially fixable with the `--fix` option.[22m[39m
+[0m
+npm error Lifecycle script `lint` failed with error:
+npm error code 1
+npm error path C:\Users\udayo\OneDrive\Desktop\mf_2\podman\federations\employee_mf
+npm error workspace employee-mf@0.0.0
+npm error location C:\Users\udayo\OneDrive\Desktop\mf_2\podman\federations\employee_mf
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c eslint .

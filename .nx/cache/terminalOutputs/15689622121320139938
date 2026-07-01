@@ -1,0 +1,1 @@
+Executing Command: dotnet "format" "backend/HelpDeskService/HelpdeskService.csproj" "--verbosity=minimal" "--verify-no-changes"

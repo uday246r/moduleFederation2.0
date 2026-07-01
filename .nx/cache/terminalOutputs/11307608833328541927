@@ -1,0 +1,1 @@
+Executing Command: dotnet "format" "backend/ModuleRegistryApi/ModuleRegistryApi.csproj" "--verbosity=minimal" "--verify-no-changes"
