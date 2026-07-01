@@ -4,7 +4,7 @@ on:
   # push:
   #   branches:
   #     - none # Disable automatic triggering to avoid duplicate CI runs. Change to 'main' if you prefer this one.
-    pull_request:
+  pull_request:
     branches:
       - main
   # workflow_dispatch:
