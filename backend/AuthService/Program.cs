@@ -1,7 +1,7 @@
 using AuthService.Data;
 
 using Microsoft.EntityFrameworkCore;
-string mySecretPassword = "SuperSecretPassword123!"
+// string mySecretPassword = "SuperSecretPassword123!";
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
