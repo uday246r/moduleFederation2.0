@@ -1,0 +1,172 @@
+[NX v22.7.6 Daemon Client] - 2026-07-01T18:15:49.672Z - [Client] Starting new daemon server in background
+[NX v22.7.6 Daemon Client] - 2026-07-01T18:15:49.682Z - [Client] Waiting for server (max: 6000 attempts, 10ms interval)
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:15:51.172Z - Time taken for 'workspace context init' 4.564999999999827ms
+DEBUG nx::native::telemetry: Telemetry service initialized successfully
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:15:51.857Z - New daemon starting from: C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\daemon\server\server.js
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:15:51.857Z - New daemon __dirname: C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\daemon\server
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:15:51.858Z - New daemon nxVersion: 22.7.6
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:15:51.859Z - New daemon getInstalledNxVersion(): 22.7.6
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:15:51.863Z - [Server] Starting outdated check interval (20ms)
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:15:51.867Z - Started listening on: \\.\pipe\nx\C:\Users\udayo\AppData\Local\Temp\ea75c2d318a31f89987f\d.sock
+[NX v22.7.6 Daemon Client] - 2026-07-01T18:15:51.879Z - [Client] Server available
+[NX v22.7.6 Daemon Client] - 2026-07-01T18:15:51.880Z - [Client] Daemon server started, pid=11660
+[NX v22.7.6 Daemon Client] - 2026-07-01T18:15:51.883Z - [Messenger] Setting up socket listeners
+[NX v22.7.6 Daemon Client] - 2026-07-01T18:15:51.883Z - [Messenger] listen() complete
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:15:51.900Z - [WATCHER]: Subscribed to changes within: C:\Users\udayo\OneDrive\Desktop\mf_2\podman (native)
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:15:51.902Z - [LATEST-NX]: Pulling latest Nx...
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:15:51.918Z - [AI-AGENTS]: Starting agent configuration status computation
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:15:51.923Z - Established a connection. Number of open connections: 1
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:15:51.924Z - Established a connection. Number of open connections: 2
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:15:51.924Z - Closed a connection. Number of open connections: 1
+[isolated-plugin] spawned worker for "C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\js" (pid: 16240, socket: \\.\pipe\nx\C:\Users\udayo\AppData\Local\Temp\plugin11660-0-2330.4336.sock)
+[isolated-plugin] spawned worker for "C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\package-json" (pid: 6680, socket: \\.\pipe\nx\C:\Users\udayo\AppData\Local\Temp\plugin11660-1-2344.1214.sock)
+[isolated-plugin] spawned worker for "C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json" (pid: 16872, socket: \\.\pipe\nx\C:\Users\udayo\AppData\Local\Temp\plugin11660-2-2357.5297.sock)
+[isolated-plugin] spawned worker for "@nx-dotnet/core" (pid: 16628, socket: \\.\pipe\nx\C:\Users\udayo\AppData\Local\Temp\plugin11660-3-2368.0114.sock)
+[NX v22.7.6 Daemon Client] - 2026-07-01T18:15:52.983Z - [Messenger] Sending message type: REQUEST_PROJECT_GRAPH
+[NX v22.7.6 Daemon Client] - 2026-07-01T18:15:52.986Z - [Messenger] Message sent
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:15:52.990Z - Received raw message of length 13363
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:15:52.990Z - Received json message of type REQUEST_PROJECT_GRAPH
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:15:52.991Z - [REQUEST]: Client Request for Project Graph Received
+[plugin-worker] "C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\js" (pid: 16240) listening on \\.\pipe\nx\C:\Users\udayo\AppData\Local\Temp\plugin11660-0-2330.4336.sock
+[isolated-plugin] connected to worker for "C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\js" (pid: 16240)
+[isolated-plugin] connected to worker for "C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\package-json" (pid: 6680)
+[plugin-worker] "C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\package-json" (pid: 6680) listening on \\.\pipe\nx\C:\Users\udayo\AppData\Local\Temp\plugin11660-1-2344.1214.sock
+[plugin-worker] "C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\package-json" (pid: 6680) connected
+[plugin-worker] "C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json" (pid: 16872) listening on \\.\pipe\nx\C:\Users\udayo\AppData\Local\Temp\plugin11660-2-2357.5297.sock
+[1m[33mTime taken for 'plugin worker 16872 code loading' 1103.3651ms[39m[22m
+[plugin-worker] "@nx-dotnet/core" (pid: 16628) listening on \\.\pipe\nx\C:\Users\udayo\AppData\Local\Temp\plugin11660-3-2368.0114.sock
+[plugin-worker] "C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\js" (pid: 16240) connected
+[1m[33mTime taken for 'plugin worker 16240 code loading' 1114.7462ms[39m[22m
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:15:53.286Z - Time taken for 'start-plugin-worker:C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\js' 1234.8914ms
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:15:53.286Z - Time taken for 'start-plugin-worker:C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\package-json' 1225.9659000000001ms
+[1m[33mTime taken for 'plugin worker 6680 code loading' 1108.8846ms[39m[22m
+[1m[33mTime taken for 'plugin worker 16628 code loading' 1089.5319ms[39m[22m
+[isolated-plugin] connected to worker for "C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json" (pid: 16872)
+[isolated-plugin] connected to worker for "@nx-dotnet/core" (pid: 16628)
+[plugin-worker] "C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json" (pid: 16872) connected
+[plugin-worker] "@nx-dotnet/core" (pid: 16628) connected
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:15:53.299Z - Time taken for 'start-plugin-worker:C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json' 1225.7164000000002ms
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:15:53.299Z - Time taken for 'start-plugin-worker:@nx-dotnet/core' 1217.0054999999998ms
+[plugin-worker] "C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json" (pid: 16872) loaded successfully
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:15:53.889Z - Time taken for 'Load Nx Plugin: C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json' 1868.5976ms
+[plugin-worker] "C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\package-json" (pid: 6680) loaded successfully
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:15:53.910Z - Time taken for 'Load Nx Plugin: C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\package-json' 1891.2741999999998ms
+[plugin-worker] "C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\js" (pid: 16240) loaded successfully
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:15:54.037Z - Time taken for 'loadDefaultNxPlugins' 2020.3085999999998ms
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:15:54.037Z - Time taken for 'Load Nx Plugin: C:\Users\udayo\OneDrive\Desktop\mf_2\podman\node_modules\nx\dist\src\plugins\js' 2019.8805000000002ms
+Fetching nx...
+[plugin-worker] "@nx-dotnet/core" (pid: 16628) loaded successfully
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:15:59.757Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:15:59.757Z - [REQUEST]: 
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:15:59.757Z - [REQUEST]: 
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:15:59.770Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:15:59.772Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.6 Daemon Client] - 2026-07-01T18:15:59.776Z - [Messenger] Received message, length: 47
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:15:59.797Z - Time taken for 'loadSpecifiedNxPlugins' 7732.7654ms
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:15:59.797Z - Time taken for 'Load Nx Plugin: @nx-dotnet/core' 7732.5098ms
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:15:59.798Z - Time taken for 'hash changed files from watcher' 3.262399999999616ms
+[1m[33mTime taken for 'nx/core/project-json:createNodes' 0.5007000000005064ms[39m[22m
+[isolated-plugin] shutting down worker for "nx/core/project-json" after createNodes
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:15:59.812Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.6 Daemon Client] - 2026-07-01T18:15:59.812Z - [Messenger] Received message, length: 174
+[1m[33mTime taken for 'nx/js/dependencies-and-lockfile:createNodes' 23.140199999999822ms[39m[22m
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:15:59.836Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.6 Daemon Client] - 2026-07-01T18:15:59.836Z - [Messenger] Received message, length: 137
+[1m[33mTime taken for 'nx/core/package-json:createNodes' 79.68249999999989ms[39m[22m
+[isolated-plugin] shutting down worker for "nx/core/package-json" after createNodes
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:15:59.888Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.6 Daemon Client] - 2026-07-01T18:15:59.888Z - [Messenger] Received message, length: 96
+[1m[33mTime taken for '@nx-dotnet/core:createNodes' 22.101800000000367ms[39m[22m
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:00.721Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.6 Daemon Client] - 2026-07-01T18:16:00.721Z - [Messenger] Received message, length: 47
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:00.799Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:00.806Z - Time taken for 'build-project-configs' 979.6459000000013ms
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:00.806Z - Time taken for 'createNodes:merge' 28.531299999998737ms
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:00.806Z - Time taken for 'native-file-deps' 0.020999999998821295ms
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:00.806Z - Time taken for 'get-workspace-files' 6.225800000000163ms
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:00.806Z - Time taken for 'get-all-workspace-files' 0.7810000000008586ms
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:00.806Z - Time taken for 'read cache' 3.8716999999996915ms
+[NX v22.7.6 Daemon Client] - 2026-07-01T18:16:00.808Z - [Messenger] Received message, length: 47
+[1m[33mTime taken for 'build typescript dependencies' 830.7668999999987ms[39m[22m
+[isolated-plugin] shutting down worker for "nx/js/dependencies-and-lockfile" after createDependencies
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:01.667Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.6 Daemon Client] - 2026-07-01T18:16:01.668Z - [Messenger] Received message, length: 103
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:01.680Z - Time taken for 'nx/js/dependencies-and-lockfile:createDependencies' 879.6977999999999ms
+[isolated-plugin] shutting down worker for "@nx-dotnet/core" after createDependencies
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:01.921Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.6 Daemon Client] - 2026-07-01T18:16:01.921Z - [Messenger] Received message, length: 47
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:01.925Z - [SYNC]: collect registered sync generators
+DEBUG nx::native::telemetry::service: Sent 1 events: [nx/js/dependencies-and-lockfile:createDe]
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:01.946Z - Wrote project graph cache to C:\Users\udayo\OneDrive\Desktop\mf_2\podman\.nx\workspace-data\project-graph.json
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:01.947Z - Serializing response for REQUEST_PROJECT_GRAPH message in json mode
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:01.947Z - Responding to REQUEST_PROJECT_GRAPH message
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:01.948Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:01.948Z - Time taken for 'total for creating and serializing project graph' 8955.764599999999ms
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:01.949Z - Time taken for 'total execution time for createProjectGraph()' 1142.4271000000008ms
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:01.949Z - Time taken for 'createDependencies' 1121.9952000000012ms
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:01.949Z - Time taken for '@nx-dotnet/core:createDependencies' 1121.1890999999996ms
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:01.949Z - Time taken for 'createMetadata' 0.050900000000183354ms
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:01.949Z - Time taken for 'serialize graph' 2.344699999999648ms
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:01.949Z - Time taken for 'write cache' 14.819499999999607ms
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:01.954Z - Done responding to the client project-graph
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:01.954Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 8956. Response time: 7.
+[NX v22.7.6 Daemon Client] - 2026-07-01T18:16:01.954Z - [Messenger] Received message, length: 344891
+[NX v22.7.6 Daemon Client] - 2026-07-01T18:16:01.963Z - [Messenger] Sending message type: PRE_TASKS_EXECUTION
+[NX v22.7.6 Daemon Client] - 2026-07-01T18:16:01.964Z - [Messenger] Message sent
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:01.967Z - Received raw message of length 834
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:01.967Z - Received json message of type PRE_TASKS_EXECUTION
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:01.971Z - Serializing response for PRE_TASKS_EXECUTION message in json mode
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:01.972Z - Responding to PRE_TASKS_EXECUTION message
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:01.972Z - [REQUEST]: Responding to the client. handleRunPreTasksExecution
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:01.972Z - Time taken for 'preTasksExecution' 3.298800000000483ms
+[NX v22.7.6 Daemon Client] - 2026-07-01T18:16:01.971Z - [Messenger] Received message, length: 2
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:01.976Z - Done responding to the client handleRunPreTasksExecution
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:01.976Z - Handled json message PRE_TASKS_EXECUTION. Handling time: 3. Response time: 5.
+DEBUG nx::native::telemetry::service: Sent 1 events: [@nx-dotnet/core:createDependencies]
+[NX v22.7.6 Daemon Client] - 2026-07-01T18:16:02.178Z - [Messenger] Sending message type: HASH_TASKS
+[NX v22.7.6 Daemon Client] - 2026-07-01T18:16:02.180Z - [Messenger] Message sent
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:02.184Z - Received raw message of length 149561
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:02.185Z - Received json message of type HASH_TASKS
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:02.187Z - Reusing in-memory cached project graph because no files changed.
+DEBUG nx::native::tasks::hash_planner: get_plans_internal COMPLETED in 6.0424ms - processed 10 tasks (setup: 2.2869ms, parallel_planning: 3.7407ms)
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset with inputs: Adding "12052373011024107241" (".gitignore") to hash
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset with inputs: Adding "12052373011024107241" (".gitignore") to hash
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset with inputs: Adding "12052373011024107241" (".gitignore") to hash
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset with inputs: Adding "12052373011024107241" (".gitignore") to hash
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset with inputs: Adding "12052373011024107241" (".gitignore") to hash
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset with inputs: Adding "12052373011024107241" (".gitignore") to hash
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset with inputs: Adding "12052373011024107241" (".gitignore") to hash
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset with inputs: Adding "10192686752003357301" ("nx.json") to hash
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset with inputs: Adding "10192686752003357301" ("nx.json") to hash
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset with inputs: Adding "12052373011024107241" (".gitignore") to hash
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset with inputs: Hash Value: "15037619569731545236"
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset with inputs: Adding "10192686752003357301" ("nx.json") to hash
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset with inputs: Adding "10192686752003357301" ("nx.json") to hash
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset with inputs: Hash Value: "15037619569731545236"
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset with inputs: Adding "10192686752003357301" ("nx.json") to hash
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset with inputs: Adding "10192686752003357301" ("nx.json") to hash
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset with inputs: Adding "10192686752003357301" ("nx.json") to hash
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset with inputs: Hash Value: "15037619569731545236"
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset with inputs: Adding "10192686752003357301" ("nx.json") to hash
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset with inputs: Hash Value: "15037619569731545236"
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset with inputs: Hash Value: "15037619569731545236"
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset with inputs: Hash Value: "15037619569731545236"
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset with inputs: Hash Value: "15037619569731545236"
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset with inputs: Hash Value: "15037619569731545236"
+DEBUG nx::native::tasks::task_hasher: hash_plans COMPLETED in 5.3061ms - processed 10 plans (setup: 236µs, hashing: 5.0658ms, assembly: 608.1µs)
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:02.215Z - Serializing response for HASH_TASKS message in json mode
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:02.215Z - Responding to HASH_TASKS message
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:02.215Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX v22.7.6 Daemon Client] - 2026-07-01T18:16:02.215Z - [Messenger] Received message, length: 5908
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:02.218Z - Done responding to the client handleHashTasks
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:02.219Z - Handled json message HASH_TASKS. Handling time: 30. Response time: 4.
+[NX v22.7.6 Daemon Client] - 2026-07-01T18:16:02.244Z - [Messenger] Sending message type: GET_ESTIMATED_TASK_TIMINGS
+[NX v22.7.6 Daemon Client] - 2026-07-01T18:16:02.245Z - [Messenger] Message sent
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:02.252Z - Received raw message of length 500
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:02.252Z - Received json message of type GET_ESTIMATED_TASK_TIMINGS
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:02.260Z - Serializing response for GET_ESTIMATED_TASK_TIMINGS message in json mode
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:02.260Z - Responding to GET_ESTIMATED_TASK_TIMINGS message
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:02.260Z - [REQUEST]: Responding to the client. handleGetEstimatedTaskTimings
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:02.260Z - Done responding to the client handleGetEstimatedTaskTimings
+[NX v22.7.6 Daemon Server] - 2026-07-01T18:16:02.260Z - Handled json message GET_ESTIMATED_TASK_TIMINGS. Handling time: 8. Response time: 0.
+[NX v22.7.6 Daemon Client] - 2026-07-01T18:16:02.260Z - [Messenger] Received message, length: 2

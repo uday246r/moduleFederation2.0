@@ -146,6 +146,7 @@
           },
           "js": {
             "packageName": "inventory-mf",
+            "packageVersion": "0.0.0",
             "isInPackageManagerWorkspaces": true
           }
         },
@@ -360,6 +361,7 @@
           },
           "js": {
             "packageName": "employee-mf",
+            "packageVersion": "0.0.0",
             "isInPackageManagerWorkspaces": true
           }
         },
@@ -448,6 +450,7 @@
           },
           "js": {
             "packageName": "helpdesk-mf",
+            "packageVersion": "0.0.0",
             "isInPackageManagerWorkspaces": true
           }
         },
@@ -535,6 +538,7 @@
           },
           "js": {
             "packageName": "asset-management-frontend",
+            "packageVersion": "1.0.0",
             "isInPackageManagerWorkspaces": true
           }
         },
@@ -734,6 +738,7 @@
           },
           "js": {
             "packageName": "host-app",
+            "packageVersion": "0.0.0",
             "isInPackageManagerWorkspaces": true
           }
         },
@@ -827,6 +832,7 @@
           "targetGroups": {},
           "js": {
             "packageName": "@myorg/shared",
+            "packageVersion": "1.0.0",
             "packageMain": "src/index.jsx",
             "isInPackageManagerWorkspaces": true
           }
@@ -7782,6 +7788,11 @@
       {
         "source": "npm:@module-federation/dts-plugin@2.6.0",
         "target": "npm:ws@8.21.0",
+        "type": "static"
+      },
+      {
+        "source": "npm:@module-federation/dts-plugin@2.6.0",
+        "target": "npm:typescript@6.0.3",
         "type": "static"
       }
     ],
@@ -15529,5 +15540,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1782927658317
+  "computedAt": 1782929761932
 }

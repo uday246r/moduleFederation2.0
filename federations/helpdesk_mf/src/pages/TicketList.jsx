@@ -19,6 +19,28 @@ export const TicketList = () => {
   const [canDelete, setCanDelete] = useState(false);
   const [canViewTicket, setCanViewTicket] = useState(false);
 
+  async function loadPermissions() {
+    try {
+      const user = await getCurrentUser();
+      if (!user) return false;
+      
+      const permissions = await getUserPermissions(user.id);
+      const helpdeskPerms = permissions.filter(p => p.moduleName.toLowerCase() === "helpdeskmodule" || p.moduleName === "*");
+      const hasWildcard = helpdeskPerms.some(p => p.action === "*");
+      
+      setCanCreate(hasWildcard || helpdeskPerms.some(p => p.action.toLowerCase() === "create_ticket"));
+      setCanEdit(hasWildcard || helpdeskPerms.some(p => p.action.toLowerCase() === "edit_ticket"));
+      setCanDelete(hasWildcard || helpdeskPerms.some(p => p.action.toLowerCase() === "delete_ticket"));
+
+      const canView = hasWildcard || helpdeskPerms.some(p => p.action.toLowerCase() === "view_ticket");
+      setCanViewTicket(canView);
+      return canView;
+    } catch (error) {
+      console.error("Failed to load permissions:", error);
+      return false;
+    }
+  }
+
   const fetchTickets = () => {
     setLoading(true);
     api.getTickets({
@@ -48,27 +70,7 @@ export const TicketList = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [statusFilter, priorityFilter, assignedFilter]);
 
-  async function loadPermissions() {
-    try {
-      const user = await getCurrentUser();
-      if (!user) return false;
-      
-      const permissions = await getUserPermissions(user.id);
-      const helpdeskPerms = permissions.filter(p => p.moduleName.toLowerCase() === "helpdeskmodule" || p.moduleName === "*");
-      const hasWildcard = helpdeskPerms.some(p => p.action === "*");
-      
-      setCanCreate(hasWildcard || helpdeskPerms.some(p => p.action.toLowerCase() === "create_ticket"));
-      setCanEdit(hasWildcard || helpdeskPerms.some(p => p.action.toLowerCase() === "edit_ticket"));
-      setCanDelete(hasWildcard || helpdeskPerms.some(p => p.action.toLowerCase() === "delete_ticket"));
 
-      const canView = hasWildcard || helpdeskPerms.some(p => p.action.toLowerCase() === "view_ticket");
-      setCanViewTicket(canView);
-      return canView;
-    } catch (error) {
-      console.error("Failed to load permissions:", error);
-      return false;
-    }
-  };
 
   const handleDelete = async (guid) => {
     if (window.confirm(`Are you sure you want to delete ticket #${guid}?`)) {
